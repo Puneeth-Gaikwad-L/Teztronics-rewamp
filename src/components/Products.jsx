@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
-import { categories, WHATSAPP_NUMBER } from "../data/products";
+import data from "../data/products.json";
+const { categories, whatsappNumber: WHATSAPP_NUMBER } = data;
 import ImageCarousel from "./ImageCarousel";
 
 function buildWhatsAppUrl(product) {

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { WHATSAPP_NUMBER } from "../data/products";
+import data from "../data/products.json";
+const { whatsappNumber: WHATSAPP_NUMBER } = data;
 
 const FIELDS = [
   { id: "org", label: "Organisation Name", placeholder: "Your company / lab name", required: true, type: "text" },

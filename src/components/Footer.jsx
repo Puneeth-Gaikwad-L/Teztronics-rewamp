@@ -1,4 +1,5 @@
-import { categories, WHATSAPP_NUMBER } from "../data/products";
+import data from "../data/products.json";
+const { categories, whatsappNumber: WHATSAPP_NUMBER } = data;
 
 export default function Footer() {
   return (
