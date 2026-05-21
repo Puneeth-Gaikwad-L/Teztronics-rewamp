@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -8,7 +8,7 @@
   <body>
     <div id="nc-root"></div>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
 
     <script>
       CMS.init({
@@ -55,13 +55,25 @@
                               widget: "list",
                               fields: [
                                 { name: "id", label: "ID", widget: "string" },
-                                { name: "name", label: "Name", widget: "string" },
-                                { name: "description", label: "Description", widget: "text" },
+                                {
+                                  name: "name",
+                                  label: "Name",
+                                  widget: "string",
+                                },
+                                {
+                                  name: "description",
+                                  label: "Description",
+                                  widget: "text",
+                                },
                                 {
                                   name: "specs",
                                   label: "Specs",
                                   widget: "list",
-                                  field: { name: "spec", label: "Spec", widget: "string" },
+                                  field: {
+                                    name: "spec",
+                                    label: "Spec",
+                                    widget: "string",
+                                  },
                                 },
                                 {
                                   name: "tag",
@@ -73,7 +85,11 @@
                                   name: "images",
                                   label: "Images",
                                   widget: "list",
-                                  field: { name: "image", label: "Image Path", widget: "string" },
+                                  field: {
+                                    name: "image",
+                                    label: "Image Path",
+                                    widget: "string",
+                                  },
                                 },
                               ],
                             },
