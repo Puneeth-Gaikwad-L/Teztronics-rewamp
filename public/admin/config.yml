@@ -69,4 +69,4 @@ collections:
                         field:
                           name: image
                           label: Image Path
-                          widget: string
+                          widget: image
