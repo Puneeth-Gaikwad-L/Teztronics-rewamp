@@ -25,16 +25,7 @@ const pillars = [
     ),
     title: "Expert Guidance",
     body: "Our team helps you select the right ESD control programme for your specific process and regulatory requirements.",
-  },
-  {
-    icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
-      </svg>
-    ),
-    title: "B2B Focused",
-    body: "We serve electronics manufacturers, semiconductor fabs, pharma cleanrooms, and R&D institutions across India.",
-  },
+  }
 ];
 
 export default function About() {
@@ -57,15 +48,14 @@ export default function About() {
           <div>
             <h2 className="font-['Syne'] font-extrabold text-white leading-[1.05] tracking-[-1.5px] mb-6"
               style={{ fontSize: "clamp(34px, 4vw, 52px)" }}>
-              Bengaluru's go-to source for ESD &amp; cleanroom protection.
+              India's go-to source for ESD &amp; cleanroom protection.
             </h2>
             <p className="text-white/45 text-[15px] leading-[1.8] mb-5 font-light">
               Teztronics was established to address a critical gap in the Indian market — the need for a
               reliable, technically knowledgeable supplier of ESD control and cleanroom consumable products.
             </p>
             <p className="text-white/45 text-[15px] leading-[1.8] font-light">
-              Based in Doddabommasandra, Vidyaranyapura, we serve clients across Bengaluru's Electronic
-              City, Peenya, and beyond, providing everything from grounding mats and wrist straps to
+              Based in Bengaluru, India, we serve clients across India, providing everything from grounding mats and wrist straps to
               full cleanroom apparel programmes.
             </p>
 
