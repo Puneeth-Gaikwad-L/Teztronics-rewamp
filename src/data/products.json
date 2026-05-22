@@ -14,25 +14,45 @@
               "id": "p1",
               "name": "ESD Anti-Fatigue Mat",
               "description": "Ergonomically designed anti-fatigue mat with ESD properties. Ideal for operators standing at workstations for long periods. Dissipates static charge safely to ground.",
-              "specs": ["Surface Resistance: 10⁶–10⁹ Ω", "Thickness: 15mm", "Colour: Black/Yellow border"],
+              "specs": [
+                "Surface Resistance: 10⁶–10⁹ Ω",
+                "Thickness: 15mm",
+                "Colour: Black/Yellow border"
+              ],
               "tag": "Bestseller",
-              "images": ["/images/p1-1.jpg", "/images/p1-2.jpg"]
+              "images": [
+                "/images/p1-1.jpg",
+                "/images/p1-2.jpg"
+              ]
             },
             {
               "id": "p2",
               "name": "ESD Rubber Mat — Green",
               "description": "Two-layer conductive rubber mat for ESD-sensitive workstations. Top layer dissipative, bottom layer conductive for reliable grounding.",
-              "specs": ["Surface Resistance: 10⁶–10⁹ Ω", "Thickness: 2mm", "Colour: Green"],
+              "specs": [
+                "Surface Resistance: 10⁶–10⁹ Ω",
+                "Thickness: 2mm",
+                "Colour: Green"
+              ],
               "tag": null,
-              "images": ["/images/p2-1.jpg", "/images/p2-2.jpg"]
+              "images": [
+                "/images/p2-1.jpg",
+                "/images/p2-2.jpg"
+              ]
             },
             {
               "id": "p3",
               "name": "ESD Table Mat — Blue",
               "description": "Premium blue vinyl ESD table mat with grounding snap button. Protects PCBs and sensitive components during assembly.",
-              "specs": ["Surface Resistance: 10⁷–10⁹ Ω", "Size: 600×900mm", "Colour: Blue"],
+              "specs": [
+                "Surface Resistance: 10⁷–10⁹ Ω",
+                "Size: 600×900mm",
+                "Colour: Blue"
+              ],
               "tag": null,
-              "images": ["/images/p3-1.jpg"]
+              "images": [
+                "/images/p3-1.jpg"
+              ]
             }
           ]
         },
@@ -44,9 +64,15 @@
               "id": "p4",
               "name": "ESD Surface Cleaner Spray",
               "description": "Fast-drying anti-static cleaner for ESD mats, worksurfaces and equipment. Leaves no residue, safe on most plastics.",
-              "specs": ["Volume: 500ml", "Dries in: <60s", "pH: Neutral"],
+              "specs": [
+                "Volume: 500ml",
+                "Dries in: <60s",
+                "pH: Neutral"
+              ],
               "tag": "New",
-              "images": ["/images/p4-1.jpg"]
+              "images": [
+                "/images/p4-1.jpg"
+              ]
             }
           ]
         },
@@ -58,17 +84,30 @@
               "id": "p5",
               "name": "ESD Floor Marking Tape — Yellow",
               "description": "High-visibility ESD floor tape for lane and hazard marking in cleanrooms. Pressure-sensitive adhesive for clean removal.",
-              "specs": ["Width: 50mm", "Length: 33m per roll", "Colour: Yellow"],
+              "specs": [
+                "Width: 50mm",
+                "Length: 33m per roll",
+                "Colour: Yellow"
+              ],
               "tag": null,
-              "images": ["/images/p5-1.jpg", "/images/p5-2.jpg"]
+              "images": [
+                "/images/p5-1.jpg",
+                "/images/p5-2.jpg"
+              ]
             },
             {
               "id": "p6",
               "name": "ESD Floor Marking Tape — Black",
               "description": "Durable black ESD marking tape. Withstands forklift and foot traffic in industrial environments.",
-              "specs": ["Width: 50mm", "Length: 33m per roll", "Colour: Black"],
+              "specs": [
+                "Width: 50mm",
+                "Length: 33m per roll",
+                "Colour: Black"
+              ],
               "tag": null,
-              "images": ["/images/p6-1.jpg"]
+              "images": [
+                "/images/p6-1.jpg"
+              ]
             }
           ]
         },
@@ -80,17 +119,30 @@
               "id": "p7",
               "name": "ESD Nylon Gloves",
               "description": "Lightweight nylon ESD gloves with polyurethane fingertip coating. Excellent dexterity for PCB handling.",
-              "specs": ["Material: Nylon + PU", "Sizes: S / M / L / XL", "Surface Res: <10⁹ Ω"],
+              "specs": [
+                "Material: Nylon + PU",
+                "Sizes: S / M / L / XL",
+                "Surface Res: <10⁹ Ω"
+              ],
               "tag": null,
-              "images": ["/images/p7-1.jpg", "/images/p7-2.jpg"]
+              "images": [
+                "/images/p7-1.jpg",
+                "/images/p7-2.jpg"
+              ]
             },
             {
               "id": "p8",
               "name": "ESD Finger Cots",
               "description": "Latex-free conductive finger cots for precision component handling. Prevents contamination and static discharge.",
-              "specs": ["Material: Nitrile", "Sizes: S / M / L", "Pack: 100 pcs"],
+              "specs": [
+                "Material: Nitrile",
+                "Sizes: S / M / L",
+                "Pack: 100 pcs"
+              ],
               "tag": "Bestseller",
-              "images": ["/images/p8-1.jpg"]
+              "images": [
+                "/images/p8-1.jpg"
+              ]
             }
           ]
         },
@@ -102,17 +154,30 @@
               "id": "p9",
               "name": "ESD Safety Shoes",
               "description": "Steel-toe ESD safety shoes meeting EN ISO 20345 S1P standards. Anti-static sole grounding the wearer through certified pathways.",
-              "specs": ["Standard: EN ISO 20345", "Sole Res: 10⁵–10⁸ Ω", "Sizes: 36–46"],
+              "specs": [
+                "Standard: EN ISO 20345",
+                "Sole Res: 10⁵–10⁸ Ω",
+                "Sizes: 36–46"
+              ],
               "tag": null,
-              "images": ["/images/p9-1.jpg", "/images/p9-2.jpg"]
+              "images": [
+                "/images/p9-1.jpg",
+                "/images/p9-2.jpg"
+              ]
             },
             {
               "id": "p10",
               "name": "ESD Slippers / Overshoes",
               "description": "Lightweight ESD cleanroom slippers for visitor and operator use. Easy-slip design for rapid changeover at entry points.",
-              "specs": ["Material: PVC", "Sole Res: <10⁹ Ω", "Sizes: Universal"],
+              "specs": [
+                "Material: PVC",
+                "Sole Res: <10⁹ Ω",
+                "Sizes: Universal"
+              ],
               "tag": null,
-              "images": ["/images/p10-1.jpg"]
+              "images": [
+                "/images/p10-1.jpg"
+              ]
             }
           ]
         },
@@ -124,17 +189,31 @@
               "id": "p11",
               "name": "ESD Lab Coat",
               "description": "Grid-knit polyester ESD lab coat with conductive carbon filament grid. Compliant with IEC 61340-5-1.",
-              "specs": ["Standard: IEC 61340-5-1", "Material: Poly + Carbon grid", "Sizes: S–3XL"],
+              "specs": [
+                "Standard: IEC 61340-5-1",
+                "Material: Poly + Carbon grid",
+                "Sizes: S–3XL"
+              ],
               "tag": null,
-              "images": ["/images/p11-1.jpg", "/images/p11-2.jpg"]
+              "images": [
+                "/images/p11-1.jpg",
+                "/images/p11-2.jpg"
+              ]
             },
             {
               "id": "p12",
               "name": "ESD Wrist Strap",
               "description": "Adjustable fabric wrist strap with coil cord for continuous operator grounding at seated workstations.",
-              "specs": ["Cord Length: 1.8m", "Resistance: 1MΩ", "Adjustable: Yes"],
+              "specs": [
+                "Cord Length: 1.8m",
+                "Resistance: 1MΩ",
+                "Adjustable: Yes"
+              ],
               "tag": "Bestseller",
-              "images": ["/images/p12-1.jpg", "/images/p12-2.jpg"]
+              "images": [
+                "/images/p12-1.jpg",
+                "/images/p12-2.jpg"
+              ]
             }
           ]
         },
@@ -146,9 +225,15 @@
               "id": "p13",
               "name": "Ground Monitor — Dual Port",
               "description": "Continuous wrist strap and footwear monitor with dual ports. Audible and visual alarm on grounding failure.",
-              "specs": ["Ports: 2", "Alarm: Buzzer + LED", "Input: 12V DC"],
+              "specs": [
+                "Ports: 2",
+                "Alarm: Buzzer + LED",
+                "Input: 12V DC"
+              ],
               "tag": "New",
-              "images": ["/images/p13-1.jpg"]
+              "images": [
+                "/images/p13-1.jpg"
+              ]
             }
           ]
         }
@@ -167,17 +252,30 @@
               "id": "p14",
               "name": "ESD Component Tray",
               "description": "Stackable ESD component trays for safe storage and transport of sensitive PCBs and ICs.",
-              "specs": ["Material: Conductive PP", "Surface Res: 10⁴–10⁶ Ω", "Sizes: Various"],
+              "specs": [
+                "Material: Conductive PP",
+                "Surface Res: 10⁴–10⁶ Ω",
+                "Sizes: Various"
+              ],
               "tag": null,
-              "images": ["/images/p14-1.jpg", "/images/p14-2.jpg"]
+              "images": [
+                "/images/p14-1.jpg",
+                "/images/p14-2.jpg"
+              ]
             },
             {
               "id": "p15",
               "name": "ESD Storage Bin",
               "description": "Open-front ESD bins for parts shelving in cleanroom and ESD-protected areas.",
-              "specs": ["Material: Conductive ABS", "Surface Res: <10⁶ Ω", "Colour: Black"],
+              "specs": [
+                "Material: Conductive ABS",
+                "Surface Res: <10⁶ Ω",
+                "Colour: Black"
+              ],
               "tag": null,
-              "images": ["/images/p15-1.jpg"]
+              "images": [
+                "/images/p15-1.jpg"
+              ]
             }
           ]
         },
@@ -189,17 +287,30 @@
               "id": "p16",
               "name": "ESD Shielding Bag",
               "description": "Metallised multi-layer shielding bags for transport and storage of ESDS devices. Meets MIL-PRF-81705E.",
-              "specs": ["Standard: MIL-PRF-81705E", "Layers: 4", "Sizes: Custom"],
+              "specs": [
+                "Standard: MIL-PRF-81705E",
+                "Layers: 4",
+                "Sizes: Custom"
+              ],
               "tag": null,
-              "images": ["/images/p16-1.jpg", "/images/p16-2.jpg"]
+              "images": [
+                "/images/p16-1.jpg",
+                "/images/p16-2.jpg"
+              ]
             },
             {
               "id": "p17",
               "name": "ESD Pink Poly Bag",
               "description": "Anti-static pink poly bags for non-shielding applications. Reduces tribocharging during handling.",
-              "specs": ["Material: LDPE", "Surface Res: 10⁹–10¹¹ Ω", "Sizes: Custom"],
+              "specs": [
+                "Material: LDPE",
+                "Surface Res: 10⁹–10¹¹ Ω",
+                "Sizes: Custom"
+              ],
               "tag": null,
-              "images": ["/images/p17-1.jpg"]
+              "images": [
+                "/images/p17-1.jpg"
+              ]
             }
           ]
         },
@@ -211,9 +322,16 @@
               "id": "p18",
               "name": "ESD Workshop Trolley",
               "description": "Three-shelf conductive trolley for moving PCBs and assemblies within ESD-protected areas.",
-              "specs": ["Shelves: 3", "Load: 50kg/shelf", "Wheels: Conductive"],
+              "specs": [
+                "Shelves: 3",
+                "Load: 50kg/shelf",
+                "Wheels: Conductive"
+              ],
               "tag": null,
-              "images": ["/images/p18-1.jpg", "/images/p18-2.jpg"]
+              "images": [
+                "/images/p18-1.jpg",
+                "/images/p18-2.jpg"
+              ]
             }
           ]
         }
@@ -232,17 +350,30 @@
               "id": "p19",
               "name": "Polyester Cleanroom Wipe",
               "description": "100% continuous-filament polyester wipes for ISO Class 4–7 cleanrooms. Ultra-low particle and ion extractables.",
-              "specs": ["Class: ISO 4–7", "Material: 100% Polyester", "Pack: 150 pcs"],
+              "specs": [
+                "Class: ISO 4–7",
+                "Material: 100% Polyester",
+                "Pack: 150 pcs"
+              ],
               "tag": "Bestseller",
-              "images": ["/images/p19-1.jpg", "/images/p19-2.jpg"]
+              "images": [
+                "/images/p19-1.jpg",
+                "/images/p19-2.jpg"
+              ]
             },
             {
               "id": "p20",
               "name": "Cleanroom Foam Wipe",
               "description": "Open-cell polyurethane foam wipes ideal for controlled solvent application on sensitive surfaces.",
-              "specs": ["Material: PU Foam", "Absorbency: High", "Pack: 100 pcs"],
+              "specs": [
+                "Material: PU Foam",
+                "Absorbency: High",
+                "Pack: 100 pcs"
+              ],
               "tag": null,
-              "images": ["/images/p20-1.jpg"]
+              "images": [
+                "/images/p20-1.jpg"
+              ]
             }
           ]
         },
@@ -254,9 +385,16 @@
               "id": "p21",
               "name": "Nitrile Cleanroom Gloves",
               "description": "Powder-free nitrile gloves with low particle and endotoxin levels for semiconductor and pharma cleanrooms.",
-              "specs": ["Material: Nitrile", "Powder-free", "Sizes: XS–XL"],
+              "specs": [
+                "Material: Nitrile",
+                "Powder-free",
+                "Sizes: XS–XL"
+              ],
               "tag": null,
-              "images": ["/images/p21-1.jpg", "/images/p21-2.jpg"]
+              "images": [
+                "/images/p21-1.jpg",
+                "/images/p21-2.jpg"
+              ]
             }
           ]
         },
@@ -268,21 +406,40 @@
               "id": "p22",
               "name": "Cleanroom Coverall",
               "description": "Full-body ISO-rated coverall with integrated hood. Minimises particle shed in critical environments.",
-              "specs": ["Standard: ISO 14644", "Material: SMS Non-woven", "Sizes: S–3XL"],
+              "specs": [
+                "Standard: ISO 14644",
+                "Material: SMS Non-woven",
+                "Sizes: S–3XL"
+              ],
               "tag": null,
-              "images": ["/images/p22-1.jpg", "/images/p22-2.jpg"]
+              "images": [
+                "/images/p22-1.jpg",
+                "/images/p22-2.jpg"
+              ]
             },
             {
               "id": "p23",
               "name": "Cleanroom Bouffant Cap",
               "description": "Lightweight disposable bouffant caps for hair and particle containment. Latex-free.",
-              "specs": ["Diameter: 21\"/24\"", "Material: Non-woven PP", "Pack: 100 pcs"],
+              "specs": [
+                "Diameter: 21\"/24\"",
+                "Material: Non-woven PP",
+                "Pack: 100 pcs"
+              ],
               "tag": null,
-              "images": ["/images/p23-1.jpg"]
+              "images": [
+                "/images/p23-1.jpg"
+              ]
             }
           ]
         }
       ]
+    },
+    {
+      "label": "ESD & non ESD chairs",
+      "id": "esd-non-esd-chairs",
+      "icon": "⬡",
+      "subcategories": []
     }
   ]
 }
