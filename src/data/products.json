@@ -39,20 +39,6 @@
                 "/images/esd-rubber-mat-green.jpg",
                 "/images/esd-rubber-mat-green-2.jpg"
               ]
-            },
-            {
-              "id": "p3",
-              "name": "ESD Table Mat — Blue",
-              "description": "Premium blue vinyl ESD table mat with grounding snap button. Protects PCBs and sensitive components during assembly.",
-              "specs": [
-                "Surface Resistance: 10⁷–10⁹ Ω",
-                "Size: 600×900mm",
-                "Colour: Blue"
-              ],
-              "tag": null,
-              "images": [
-                "/images/p3-1.jpg"
-              ]
             }
           ]
         },
