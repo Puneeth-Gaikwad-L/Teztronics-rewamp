@@ -426,6 +426,26 @@
       "id": "esd-non-esd-chairs",
       "icon": "⬡",
       "subcategories": []
+    },
+    {
+      "id": "soldering",
+      "label": "Soldering equipment, accessories & tools",
+      "icon": "⬡"
+    },
+    {
+      "label": "Static measuring instruments​",
+      "id": "static-measuring-instruments​",
+      "icon": "⬡"
+    },
+    {
+      "id": "esd-flooring",
+      "label": "ESD flooring",
+      "icon": "⬡"
+    },
+    {
+      "id": "tape-and-tape-dispenser",
+      "label": "Tape and tape dispenser",
+      "icon": "⬡"
     }
   ]
 }
