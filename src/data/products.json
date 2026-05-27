@@ -4,7 +4,7 @@
     {
       "id": "esd-cleanroom",
       "label": "ESD Clean Room Products",
-      "icon": "⬡",
+      "icon": "◇",
       "subcategories": [
         {
           "id": "esd-flooring",
@@ -228,7 +228,7 @@
     {
       "id": "material-handling",
       "label": "Material Handling & Storage",
-      "icon": "◈",
+      "icon": "◇",
       "subcategories": [
         {
           "id": "esd-bins",
@@ -424,28 +424,28 @@
     {
       "label": "ESD & non ESD chair",
       "id": "esd-non-esd-chairs",
-      "icon": "⬡",
+      "icon": "◇",
       "subcategories": []
     },
     {
       "id": "soldering",
       "label": "Soldering equipment, accessories & tools",
-      "icon": "⬡"
+      "icon": "◇"
     },
     {
       "label": "Static measuring instruments​",
       "id": "static-measuring-instruments​",
-      "icon": "⬡"
+      "icon": "◇"
     },
     {
       "id": "esd-flooring",
       "label": "ESD flooring",
-      "icon": "⬡"
+      "icon": "◇"
     },
     {
       "id": "tape-and-tape-dispenser",
       "label": "Tape and tape dispenser",
-      "icon": "⬡"
+      "icon": "◇"
     }
   ]
 }
