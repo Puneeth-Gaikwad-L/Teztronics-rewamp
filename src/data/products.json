@@ -48,7 +48,7 @@
           "products": [
             {
               "id": "p4",
-              "name": "ESD Surface Cleaner Spray",
+              "name": "ESD safe floor cleaner",
               "description": "Fast-drying anti-static cleaner for ESD mats, worksurfaces and equipment. Leaves no residue, safe on most plastics.",
               "specs": [
                 "Volume: 500ml",
@@ -59,6 +59,11 @@
               "images": [
                 "/images/p4-1.jpg"
               ]
+            },
+            {
+              "id": "p3",
+              "name": "ESD safe mat & table cleaner",
+              "description": "na"
             }
           ]
         },
