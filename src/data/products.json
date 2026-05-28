@@ -111,7 +111,7 @@
           "products": [
             {
               "id": "p7",
-              "name": "ESD Nylon Gloves",
+              "name": "Anti-Static dotted gloves",
               "description": "Lightweight nylon ESD gloves with polyurethane fingertip coating. Excellent dexterity for PCB handling.",
               "specs": [
                 "Material: Nylon + PU",
@@ -120,8 +120,8 @@
               ],
               "tag": null,
               "images": [
-                "/images/p7-1.jpg",
-                "/images/p7-2.jpg"
+                "/images/anti-static-dotted-gloves.jpg",
+                "/images/anti-static-dotted-gloves-2.jpg"
               ]
             },
             {
@@ -135,7 +135,24 @@
               ],
               "tag": "Bestseller",
               "images": [
-                "/images/p8-1.jpg"
+                "/images/finger-cots.jpg",
+                "/images/finger-cots-2.jpg"
+              ]
+            },
+            {
+              "id": "p8.2",
+              "name": "ESD Palm Fit PU Coated gloves",
+              "description": "na",
+              "images": [
+                "/images/esd-palm-fit-pu-coated-gloves.jpg"
+              ]
+            },
+            {
+              "id": "8.3",
+              "name": "ESD finger top Fit PU Coated gloves",
+              "description": "na",
+              "images": [
+                "/images/esd-finger-top-fit-pu-coated-gloves.jpg"
               ]
             }
           ]
