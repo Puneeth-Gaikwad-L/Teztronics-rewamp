@@ -57,13 +57,16 @@
               ],
               "tag": "New",
               "images": [
-                "/images/p4-1.jpg"
+                "/images/esd-floor-cleaner.jpg"
               ]
             },
             {
               "id": "p3",
               "name": "ESD safe mat & table cleaner",
-              "description": "na"
+              "description": "na",
+              "images": [
+                "/images/mat-table-cleaner.jpg"
+              ]
             }
           ]
         },
