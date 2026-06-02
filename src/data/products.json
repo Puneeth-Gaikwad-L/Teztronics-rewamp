@@ -111,8 +111,8 @@
           "products": [
             {
               "id": "p7",
-              "name": "Anti-Static dotted gloves",
-              "description": "Lightweight nylon ESD gloves with polyurethane fingertip coating. Excellent dexterity for PCB handling.",
+              "name": "ESD Anti-Static Inspection Gloves",
+              "description": "ESD Anti-Static Inspection Gloves are designed to provide reliable protection against electrostatic discharge while ensuring excellent comfort, flexibility, and fingertip sensitivity. Manufactured from conductive polyester and carbon fiber fabric, these gloves help prevent static buildup that can damage sensitive electronic components. The lightweight, breathable construction offers all-day comfort, making them ideal for electronics assembly, PCB manufacturing, semiconductor handling, quality inspection, cleanroom operations, and precision engineering tasks.\n\nThe seamless design ensures a snug fit and enhanced dexterity, allowing operators to handle delicate components with confidence while maintaining ESD protection throughout the work process.",
               "specs": [
                 "Material: Nylon + PU",
                 "Sizes: S / M / L / XL",
@@ -126,8 +126,8 @@
             },
             {
               "id": "p8",
-              "name": "ESD Finger Cots",
-              "description": "Latex-free conductive finger cots for precision component handling. Prevents contamination and static discharge.",
+              "name": "ESD Anti-Static Finger Cots",
+              "description": "ESD Anti-Static Finger Cots are designed to protect sensitive electronic components from electrostatic discharge, contamination, fingerprints, oils, and moisture during handling and assembly processes. Made from high-quality anti-static latex, these finger cots provide excellent flexibility, comfort, and tactile sensitivity, allowing users to perform precision tasks without compromising component safety.\n\nIdeal for electronics manufacturing, PCB assembly, semiconductor handling, laboratory work, cleanroom environments, quality inspection, and repair applications, these finger cots offer a secure fit and reliable ESD protection for individual fingers while maintaining maximum dexterity.",
               "specs": [
                 "Material: Nitrile",
                 "Sizes: S / M / L",
@@ -148,7 +148,7 @@
               ]
             },
             {
-              "id": "8.3",
+              "id": "p8.3",
               "name": "ESD finger top Fit PU Coated gloves",
               "description": "na",
               "images": [
@@ -178,8 +178,8 @@
             },
             {
               "id": "p10",
-              "name": "ESD Slippers / Overshoes",
-              "description": "Lightweight ESD cleanroom slippers for visitor and operator use. Easy-slip design for rapid changeover at entry points.",
+              "name": "ESD Slippers",
+              "description": "Lightweight ESD cleanroom slippers for operators use. Easy-slip design for rapid changeover at entry points.",
               "specs": [
                 "Material: PVC",
                 "Sole Res: <10⁹ Ω",
