@@ -49,11 +49,10 @@
             {
               "id": "p4",
               "name": "ESD safe Floor Cleaner",
-              "description": "ESD Floor Cleaner is a specially formulated cleaning solution designed for conductive and dissipative ESD flooring systems. It effectively removes dirt, dust, grease, and contaminants while preserving the electrical properties of ESD floors. Regular use helps maintain a clean, safe, and static-controlled environment, making it ideal for electronics manufacturing facilities, cleanrooms, laboratories, data centers, and assembly areas.\n\nThe non-residue formula ensures consistent floor conductivity without leaving insulating deposits that may interfere with ESD protection. Suitable for routine maintenance of ESD vinyl, epoxy, rubber, and other anti-static floor surfaces.",
+              "description": "ESD Floor Cleaner is specially formulated for cleaning conductive and dissipative ESD flooring. It removes dirt, dust, and grease while non-residue formula helps maintaining the floor's static-control properties, helping ensure a clean and ESD-safe environment.",
               "specs": [
-                "Volume: 500ml",
-                "Dries in: <60s",
-                "pH: Neutral"
+                "Volume: 5ltr",
+                "Storage: Store in a cool, dry place away from direct sunlight"
               ],
               "tag": "New",
               "images": [
@@ -63,7 +62,7 @@
             {
               "id": "p3",
               "name": "ESD safe mat & tabletop cleaner",
-              "description": "Mat & Tabletop Cleaner is a specially formulated anti-static cleaning solution designed for ESD workstations, table mats, floor mats, and other static-control surfaces. It effectively removes dirt, grease, flux residues, fingerprints, and contaminants while maintaining the electrical properties of ESD protective surfaces. The cleaner leaves no insulating residue and helps preserve the performance of anti-static mats and workstations used in electronics manufacturing, PCB assembly, semiconductor production, laboratories, and ESD-protected areas (EPA). Regular use helps extend the life of ESD mats and ensures a clean, compliant, and static-safe work environment.",
+              "description": "Mat & Tabletop Cleaner is a specially formulated anti-static cleaning solution designed for ESD workstations, table mats, floor mats, and other static-control surfaces. It effectively removes dirt, grease, flux residues, fingerprints, and contaminants while maintaining the electrical properties of ESD protective surfaces. Regular use helps extend the life of ESD mats and ensures a clean, compliant, and static-safe work environment.",
               "images": [
                 "/images/mat-table-cleaner.jpg"
               ]
