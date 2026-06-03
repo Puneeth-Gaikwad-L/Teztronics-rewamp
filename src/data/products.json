@@ -48,8 +48,8 @@
           "products": [
             {
               "id": "p4",
-              "name": "ESD safe floor cleaner",
-              "description": "Fast-drying anti-static cleaner for ESD mats, worksurfaces and equipment. Leaves no residue, safe on most plastics.",
+              "name": "ESD safe Floor Cleaner",
+              "description": "ESD Floor Cleaner is a specially formulated cleaning solution designed for conductive and dissipative ESD flooring systems. It effectively removes dirt, dust, grease, and contaminants while preserving the electrical properties of ESD floors. Regular use helps maintain a clean, safe, and static-controlled environment, making it ideal for electronics manufacturing facilities, cleanrooms, laboratories, data centers, and assembly areas.\n\nThe non-residue formula ensures consistent floor conductivity without leaving insulating deposits that may interfere with ESD protection. Suitable for routine maintenance of ESD vinyl, epoxy, rubber, and other anti-static floor surfaces.",
               "specs": [
                 "Volume: 500ml",
                 "Dries in: <60s",
@@ -62,8 +62,8 @@
             },
             {
               "id": "p3",
-              "name": "ESD safe mat & table cleaner",
-              "description": "na",
+              "name": "ESD safe mat & tabletop cleaner",
+              "description": "Mat & Tabletop Cleaner is a specially formulated anti-static cleaning solution designed for ESD workstations, table mats, floor mats, and other static-control surfaces. It effectively removes dirt, grease, flux residues, fingerprints, and contaminants while maintaining the electrical properties of ESD protective surfaces.\n\nThe cleaner leaves no insulating residue and helps preserve the performance of anti-static mats and workstations used in electronics manufacturing, PCB assembly, semiconductor production, laboratories, and ESD-protected areas (EPA).\n\nRegular use helps extend the life of ESD mats and ensures a clean, compliant, and static-safe work environment.",
               "images": [
                 "/images/mat-table-cleaner.jpg"
               ]
