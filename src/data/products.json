@@ -13,7 +13,7 @@
             {
               "id": "p1",
               "name": "ESD Anti-Fatigue Mat",
-              "description": "ESD Anti-Fatigue Mat is designed to provide static protection and ergonomic comfort in ESD-sensitive work areas. Its cushioned surface helps reduce leg and foot fatigue during prolonged standing while maintaining a safe static-controlled environment for electronics manufacturing, assembly, and testing operations.",
+              "description": "ESD Anti-Fatigue Mats provide reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 15mm",
@@ -28,7 +28,7 @@
             {
               "id": "p2",
               "name": "ESD Rubber Mat — Green",
-              "description": "Create a safe and static-free workspace with our high-quality ESD Rubber Mat. Designed to protect sensitive electronic devices and components from electrostatic discharge (ESD), this anti-static mat is ideal for electronics assembly, repair, testing, and manufacturing environments. The durable rubber construction provides reliable static control, excellent wear resistance, and long-lasting performance for everyday use. Whether used in production facilities, laboratories, service centers, or repair workstations, this ESD mat helps safeguard valuable electronics and improve workplace safety.",
+              "description": "ESD Rubber Mat provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 2mm",
@@ -47,7 +47,7 @@
           "label": "Anti-Static Cleaner",
           "products": [
             {
-              "id": "p4",
+              "id": "p3",
               "name": "ESD safe Floor Cleaner",
               "description": "ESD Floor Cleaner is a specially formulated cleaning solution designed for conductive and dissipative ESD flooring systems. It effectively removes dirt, dust, grease, and contaminants while preserving the electrical properties of ESD floors. Regular use helps maintain a clean, safe, and static-controlled environment. The non-residue formula ensures consistent floor conductivity without leaving insulating deposits that may interfere with ESD protection. Suitable for routine maintenance of ESD vinyl, epoxy, rubber, and other anti-static floor surfaces.",
               "specs": [
@@ -60,7 +60,7 @@
               ]
             },
             {
-              "id": "p3",
+              "id": "p4",
               "name": "ESD safe mat & tabletop cleaner",
               "description": "Mat & Tabletop Cleaner is a specially formulated anti-static cleaning solution designed for ESD workstations, table mats, floor mats, and other static-control surfaces. It effectively removes dirt, grease, flux residues, fingerprints, and contaminants while maintaining the electrical properties of ESD protective surfaces. The cleaner leaves no insulating residue and helps preserve the performance of anti-static mats and workstations. Regular use helps extend the life of ESD mats and ensures a clean, compliant, and static-safe work environment.",
               "images": [
@@ -111,7 +111,7 @@
             {
               "id": "p7",
               "name": "ESD Dotted Gloves",
-              "description": "Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices and assemblies during manufacturing, testing, inspection, and repair processes.\nFeaturing anti-slip PVC dots on the palm and fingers, the gloves provide enhanced grip and control when handling PCBs, electronic components, tools, and packaging materials. The lightweight, breathable fabric offers comfort for extended wear while maintaining flexibility and dexterity for precision tasks.\nIdeal for electronics manufacturing, assembly lines, service centers, laboratories, and ESD-protected workstations, these gloves combine reliable static control with improved handling performance.",
+              "description": "ESD Dotted Gloves provide reliable static protection while offering enhanced grip for handling electronic components, PCBs, tools, and materials. Designed for comfort, durability, and precision, they are ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "specs": [
                 "Material: Nylon + PU",
                 "Sizes: S / M / L / XL",
@@ -141,7 +141,7 @@
             {
               "id": "p8.2",
               "name": "ESD Palm Fit PU Coated gloves",
-              "description": "na",
+              "description": "ESD Palm Fit PU Coated Gloves provide reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "images": [
                 "/images/esd-palm-fit-pu-coated-gloves.jpg"
               ]
