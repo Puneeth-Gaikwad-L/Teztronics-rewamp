@@ -1,5 +1,5 @@
 {
-  "whatsappNumber": "917483581847",
+  "whatsappNumber": "+91-7483581847",
   "categories": [
     {
       "id": "esd-cleanroom",
@@ -49,7 +49,7 @@
             {
               "id": "p3",
               "name": "ESD safe Floor Cleaner",
-              "description": "ESD Floor Cleaner is a specially formulated cleaning solution designed for conductive and dissipative ESD flooring systems. It effectively removes dirt, dust, grease, and contaminants while preserving the electrical properties of ESD floors. Regular use helps maintain a clean, safe, and static-controlled environment. The non-residue formula ensures consistent floor conductivity without leaving insulating deposits that may interfere with ESD protection. Suitable for routine maintenance of ESD vinyl, epoxy, rubber, and other anti-static floor surfaces.",
+              "description": "ESD Safe Floor Cleaner is specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
               "specs": [
                 "Volume: 5ltr",
                 "Storage: Store in a cool, dry place away from direct sunlight"
@@ -62,7 +62,7 @@
             {
               "id": "p4",
               "name": "ESD safe mat & tabletop cleaner",
-              "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean anti-static mats, workstations, and ESD-safe surfaces without affecting their static-control properties. It effectively removes dust, dirt, and grease while helping maintain a clean and reliable ESD-protected workspace.",
+              "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean ESD mats, workbenches, and static-dissipative surfaces without affecting their ESD performance. It effectively removes dust, dirt, grease, and fingerprints while helping maintain a clean and reliable ESD-protected workspace.",
               "images": [
                 "/images/mat-table-cleaner.jpg"
               ]
@@ -149,7 +149,7 @@
             {
               "id": "p8.3",
               "name": "ESD finger top Fit PU Coated gloves",
-              "description": "na",
+              "description": "ESD Finger Top Fit PU Coated Gloves provide reliable static protection with enhanced fingertip grip for precision handling of electronic components. Designed for comfort, dexterity, and control, they are ideal for electronics assembly, inspection, testing, and repair applications in ESD-protected environments.",
               "images": [
                 "/images/esd-finger-top-fit-pu-coated-gloves.jpg"
               ]
