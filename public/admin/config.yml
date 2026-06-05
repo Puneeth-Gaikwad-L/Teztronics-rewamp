@@ -16,6 +16,16 @@ collections:
           - name: whatsappNumber
             label: WhatsApp Number
             widget: string
+          - name: contact
+            label: Contact Information
+            widget: object
+            fields:
+              - name: city
+                label: City
+                widget: string
+              - name: address
+                label: Address
+                widget: string  
           - name: categories
             label: Categories
             widget: list

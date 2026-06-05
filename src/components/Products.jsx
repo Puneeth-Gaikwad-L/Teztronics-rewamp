@@ -103,9 +103,6 @@ export default function Products() {
           >
             Everything your ESD programme needs.
           </h2>
-          <p className="text-white/35 text-[14px] max-w-xs leading-relaxed">
-            Click any product to enquire instantly via WhatsApp.
-          </p>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
