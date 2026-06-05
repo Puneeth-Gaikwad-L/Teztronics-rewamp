@@ -188,6 +188,16 @@
               "images": [
                 "/images/p10-1.jpg"
               ]
+            },
+            {
+              "id": "p10.1",
+              "name": "ESD cleanroom shoe",
+              "description": "ESD Cleanroom Shoes provide effective static control while helping maintain cleanliness in controlled environments. Designed for comfort, durability, and safety, they are ideal for electronics manufacturing, semiconductor facilities, laboratories, pharmaceutical production, and cleanroom applications."
+            },
+            {
+              "id": "p10.2",
+              "name": "Manual Shoe cover dispenser",
+              "description": "The Manual Shoe Cover Dispenser provides a fast, convenient, and hygienic way to apply disposable shoe covers. Requiring no electricity, it helps maintain cleanliness and contamination control in cleanrooms, laboratories, healthcare facilities, manufacturing plants, and other controlled environments."
             }
           ]
         },
@@ -438,7 +448,7 @@
               ],
               "tag": null,
               "images": [
-                "/images/p23-1.jpg"
+                "/images/bouffant-cap.jpg"
               ]
             }
           ]
