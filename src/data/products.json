@@ -207,7 +207,7 @@
           "products": [
             {
               "id": "p11",
-              "name": "ESD Lab Coat",
+              "name": "ESD Apron",
               "description": "Grid-knit polyester ESD lab coat with conductive carbon filament grid. Compliant with IEC 61340-5-1.",
               "specs": [
                 "Standard: IEC 61340-5-1",
@@ -222,18 +222,28 @@
             },
             {
               "id": "p12",
-              "name": "ESD Wrist Strap",
+              "name": "ESD Cover All",
               "description": "Adjustable fabric wrist strap with coil cord for continuous operator grounding at seated workstations.",
               "specs": [
                 "Cord Length: 1.8m",
                 "Resistance: 1MΩ",
                 "Adjustable: Yes"
               ],
-              "tag": "Bestseller",
+              "tag": "",
               "images": [
                 "/images/p12-1.jpg",
                 "/images/p12-2.jpg"
               ]
+            },
+            {
+              "id": "p12.1",
+              "name": "ESD Cap & Bouffant Cap",
+              "description": "na"
+            },
+            {
+              "id": "p12.2",
+              "name": "ESD Shoe Cover",
+              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas."
             }
           ]
         },
