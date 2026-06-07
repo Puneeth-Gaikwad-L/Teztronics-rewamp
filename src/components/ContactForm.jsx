@@ -30,7 +30,7 @@ export default function ContactForm() {
     ]
       .filter(Boolean)
       .join("\n");
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines)}`, "_blank");
+    window.open(`https://wa.me/91${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines)}`, "_blank");
   };
 
   return (
@@ -70,7 +70,7 @@ export default function ContactForm() {
             {/* Quick contact pills */}
             <div className="space-y-3 mb-8">
               <a
-                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                href={`https://wa.me/91${WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-[#25D366]/30 hover:bg-[#25D366]/5 transition-all duration-200 group"

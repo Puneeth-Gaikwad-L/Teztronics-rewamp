@@ -14,7 +14,7 @@ collections:
         file: src/data/products.json
         fields:
           - name: whatsappNumber
-            label: WhatsApp Number
+            label: "WhatsApp Number (10 digits, no country code, e.g. 7483581847)"
             widget: string
           - name: contact
             label: Contact Information

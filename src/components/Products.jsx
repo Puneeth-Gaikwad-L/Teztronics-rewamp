@@ -10,7 +10,7 @@ function buildWhatsAppUrl(product) {
   const message = encodeURIComponent(
     `Hi Teztronics,\n\nI would like to enquire about:\n*${product.name}*\n\nPlease share pricing and availability. Thank you.`
   );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+  return `https://wa.me/91${WHATSAPP_NUMBER}?text=${message}`;
 }
 
 function ProductCard({ product }) {

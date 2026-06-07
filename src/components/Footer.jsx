@@ -16,7 +16,7 @@ export default function Footer() {
               and workshops across India. Quality products, honest advice, fast delivery.
             </p>
             <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}`}
+              href={`https://wa.me/91${WHATSAPP_NUMBER}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#25D366]/30 rounded-sm text-[#25D366] hover:bg-[#25D366]/10 font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest transition-all duration-200"
