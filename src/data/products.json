@@ -1,5 +1,5 @@
 {
-  "whatsappNumber": "7483581847",
+  "whatsappNumber": "+91-7483581847",
   "categories": [
     {
       "id": "esd-cleanroom",
@@ -13,14 +13,13 @@
             {
               "id": "p1",
               "name": "ESD Anti-Fatigue Mat",
-              "description": "Ergonomically designed anti-fatigue mat with ESD properties. Ideal for operators standing at workstations for long periods. Dissipates static charge safely to ground.",
+              "description": "ESD Anti-Fatigue Mat provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 15mm",
                 "Colour: Black/Yellow border"
               ],
-              "tag": "Bestseller",
-              "featured": true,
+              "tag": "",
               "images": [
                 "/images/esd-anti-fatigue-mat.jpg",
                 "/images/esd-anti-fatigue-mat-2.jpg"
@@ -29,14 +28,13 @@
             {
               "id": "p2",
               "name": "ESD Rubber Mat — Green",
-              "description": "Two-layer conductive rubber mat for ESD-sensitive workstations. Top layer dissipative, bottom layer conductive for reliable grounding.",
+              "description": "ESD Rubber Mat provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 2mm",
                 "Colour: Green"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/esd-rubber-mat-green.jpg",
                 "/images/esd-rubber-mat-green-2.jpg"
@@ -49,25 +47,22 @@
           "label": "Anti-Static Cleaner",
           "products": [
             {
-              "id": "p4",
-              "name": "ESD safe floor cleaner",
-              "description": "Fast-drying anti-static cleaner for ESD mats, worksurfaces and equipment. Leaves no residue, safe on most plastics.",
+              "id": "p3",
+              "name": "ESD safe Floor Cleaner",
+              "description": "ESD Safe Floor Cleaner is specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
               "specs": [
-                "Volume: 500ml",
-                "Dries in: <60s",
-                "pH: Neutral"
+                "Volume: 5ltr",
+                "Storage: Store in a cool, dry place away from direct sunlight"
               ],
               "tag": "New",
-              "featured": false,
               "images": [
                 "/images/esd-floor-cleaner.jpg"
               ]
             },
             {
-              "id": "p3",
-              "name": "ESD safe mat & table cleaner",
-              "description": "na",
-              "featured": false,
+              "id": "p4",
+              "name": "ESD safe mat & tabletop cleaner",
+              "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean ESD mats, workbenches, and static-dissipative surfaces without affecting their ESD performance. It effectively removes dust, dirt, grease, and fingerprints while helping maintain a clean and reliable ESD-protected workspace.",
               "images": [
                 "/images/mat-table-cleaner.jpg"
               ]
@@ -88,7 +83,6 @@
                 "Colour: Yellow"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p5-1.jpg",
                 "/images/p5-2.jpg"
@@ -104,7 +98,6 @@
                 "Colour: Black"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p6-1.jpg"
               ]
@@ -117,15 +110,14 @@
           "products": [
             {
               "id": "p7",
-              "name": "Anti-Static dotted gloves",
-              "description": "Lightweight nylon ESD gloves with polyurethane fingertip coating. Excellent dexterity for PCB handling.",
+              "name": "ESD Dotted Gloves",
+              "description": "ESD Dotted Gloves provide reliable static protection while offering enhanced grip for handling electronic components, PCBs, tools, and materials. Designed for comfort, durability, and precision, they are ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "specs": [
                 "Material: Nylon + PU",
                 "Sizes: S / M / L / XL",
                 "Surface Res: <10⁹ Ω"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/anti-static-dotted-gloves.jpg",
                 "/images/anti-static-dotted-gloves-2.jpg"
@@ -133,15 +125,14 @@
             },
             {
               "id": "p8",
-              "name": "ESD Finger Cots",
-              "description": "Latex-free conductive finger cots for precision component handling. Prevents contamination and static discharge.",
+              "name": "ESD Anti-Static Finger Cots",
+              "description": "ESD Anti-Static Finger Cots provide reliable protection against electrostatic discharge, fingerprints, moisture, and contaminants when handling sensitive electronic components. Ideal for precision assembly, inspection, testing, and repair applications in ESD-protected environments.",
               "specs": [
                 "Material: Nitrile",
                 "Sizes: S / M / L",
                 "Pack: 100 pcs"
               ],
-              "tag": "Bestseller",
-              "featured": true,
+              "tag": "",
               "images": [
                 "/images/finger-cots.jpg",
                 "/images/finger-cots-2.jpg"
@@ -150,17 +141,15 @@
             {
               "id": "p8.2",
               "name": "ESD Palm Fit PU Coated gloves",
-              "description": "na",
-              "featured": false,
+              "description": "ESD Palm Fit PU Coated Gloves provide reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "images": [
                 "/images/esd-palm-fit-pu-coated-gloves.jpg"
               ]
             },
             {
-              "id": "8.3",
+              "id": "p8.3",
               "name": "ESD finger top Fit PU Coated gloves",
-              "description": "na",
-              "featured": false,
+              "description": "ESD Finger Top Fit PU Coated Gloves provide reliable static protection with enhanced fingertip grip for precision handling of electronic components. Designed for comfort, dexterity, and control, they are ideal for electronics assembly, inspection, testing, and repair applications in ESD-protected environments",
               "images": [
                 "/images/esd-finger-top-fit-pu-coated-gloves.jpg"
               ]
@@ -181,7 +170,6 @@
                 "Sizes: 36–46"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p9-1.jpg",
                 "/images/p9-2.jpg"
@@ -189,18 +177,27 @@
             },
             {
               "id": "p10",
-              "name": "ESD Slippers / Overshoes",
-              "description": "Lightweight ESD cleanroom slippers for visitor and operator use. Easy-slip design for rapid changeover at entry points.",
+              "name": "ESD Slippers",
+              "description": "Lightweight ESD cleanroom slippers for operators use. Easy-slip design for rapid changeover at entry points.",
               "specs": [
                 "Material: PVC",
                 "Sole Res: <10⁹ Ω",
                 "Sizes: Universal"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p10-1.jpg"
               ]
+            },
+            {
+              "id": "p10.1",
+              "name": "ESD cleanroom shoe",
+              "description": "ESD Cleanroom Shoes provide effective static control while helping maintain cleanliness in controlled environments. Designed for comfort, durability, and safety, they are ideal for electronics manufacturing, semiconductor facilities, laboratories, pharmaceutical production, and cleanroom applications."
+            },
+            {
+              "id": "p10.2",
+              "name": "Manual Shoe cover dispenser",
+              "description": "The Manual Shoe Cover Dispenser provides a fast, convenient, and hygienic way to apply disposable shoe covers. Requiring no electricity, it helps maintain cleanliness and contamination control in cleanrooms, laboratories, healthcare facilities, manufacturing plants, and other controlled environments."
             }
           ]
         },
@@ -210,7 +207,7 @@
           "products": [
             {
               "id": "p11",
-              "name": "ESD Lab Coat",
+              "name": "ESD Apron",
               "description": "Grid-knit polyester ESD lab coat with conductive carbon filament grid. Compliant with IEC 61340-5-1.",
               "specs": [
                 "Standard: IEC 61340-5-1",
@@ -218,7 +215,6 @@
                 "Sizes: S–3XL"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p11-1.jpg",
                 "/images/p11-2.jpg"
@@ -226,29 +222,38 @@
             },
             {
               "id": "p12",
-              "name": "ESD Wrist Strap",
+              "name": "ESD Cover All",
               "description": "Adjustable fabric wrist strap with coil cord for continuous operator grounding at seated workstations.",
               "specs": [
                 "Cord Length: 1.8m",
                 "Resistance: 1MΩ",
                 "Adjustable: Yes"
               ],
-              "tag": "Bestseller",
-              "featured": false,
+              "tag": "",
               "images": [
                 "/images/p12-1.jpg",
                 "/images/p12-2.jpg"
               ]
+            },
+            {
+              "id": "p12.1",
+              "name": "ESD Cap & Bouffant Cap",
+              "description": "na"
+            },
+            {
+              "id": "p12.2",
+              "name": "ESD Shoe Cover",
+              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas."
             }
           ]
         },
         {
           "id": "esd-grounding",
-          "label": "ESD Grounding Products",
+          "label": "ESD Grounding",
           "products": [
             {
               "id": "p13",
-              "name": "Ground Monitor — Dual Port",
+              "name": "ESD Wrist Strap with Cord",
               "description": "Continuous wrist strap and footwear monitor with dual ports. Audible and visual alarm on grounding failure.",
               "specs": [
                 "Ports: 2",
@@ -256,10 +261,39 @@
                 "Input: 12V DC"
               ],
               "tag": "New",
-              "featured": true,
               "images": [
                 "/images/p13-1.jpg"
               ]
+            },
+            {
+              "id": "p13.1",
+              "name": "ESD Wrist Strap Cordless",
+              "description": "na"
+            },
+            {
+              "id": "p13.2",
+              "name": "Grounding Cord",
+              "description": "na"
+            },
+            {
+              "id": "p13.3",
+              "name": "Common Grounding Point",
+              "description": "na"
+            },
+            {
+              "id": "p13.4",
+              "name": "ESD Heel Strap",
+              "description": "na"
+            },
+            {
+              "id": "p13.5",
+              "name": "ESD Field Service Kit",
+              "description": "na"
+            },
+            {
+              "id": "p13.6",
+              "name": "ESD Shoe Cover with Conductive Strip",
+              "description": "na"
             }
           ]
         }
@@ -284,7 +318,6 @@
                 "Sizes: Various"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p14-1.jpg",
                 "/images/p14-2.jpg"
@@ -300,7 +333,6 @@
                 "Colour: Black"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p15-1.jpg"
               ]
@@ -321,7 +353,6 @@
                 "Sizes: Custom"
               ],
               "tag": null,
-              "featured": true,
               "images": [
                 "/images/p16-1.jpg",
                 "/images/p16-2.jpg"
@@ -337,7 +368,6 @@
                 "Sizes: Custom"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p17-1.jpg"
               ]
@@ -358,7 +388,6 @@
                 "Wheels: Conductive"
               ],
               "tag": null,
-              "featured": false,
               "images": [
                 "/images/p18-1.jpg",
                 "/images/p18-2.jpg"
@@ -372,111 +401,13 @@
       "id": "cleanroom-disposables",
       "label": "Clean Room Disposables",
       "icon": "◇",
-      "subcategories": [
-        {
-          "id": "cr-wipes",
-          "label": "Cleanroom Wipes",
-          "products": [
-            {
-              "id": "p19",
-              "name": "Polyester Cleanroom Wipe",
-              "description": "100% continuous-filament polyester wipes for ISO Class 4–7 cleanrooms. Ultra-low particle and ion extractables.",
-              "specs": [
-                "Class: ISO 4–7",
-                "Material: 100% Polyester",
-                "Pack: 150 pcs"
-              ],
-              "tag": "Bestseller",
-              "featured": true,
-              "images": [
-                "/images/p19-1.jpg",
-                "/images/p19-2.jpg"
-              ]
-            },
-            {
-              "id": "p20",
-              "name": "Cleanroom Foam Wipe",
-              "description": "Open-cell polyurethane foam wipes ideal for controlled solvent application on sensitive surfaces.",
-              "specs": [
-                "Material: PU Foam",
-                "Absorbency: High",
-                "Pack: 100 pcs"
-              ],
-              "tag": null,
-              "featured": false,
-              "images": [
-                "/images/p20-1.jpg"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "cr-gloves",
-          "label": "Cleanroom Gloves",
-          "products": [
-            {
-              "id": "p21",
-              "name": "Nitrile Cleanroom Gloves",
-              "description": "Powder-free nitrile gloves with low particle and endotoxin levels for semiconductor and pharma cleanrooms.",
-              "specs": [
-                "Material: Nitrile",
-                "Powder-free",
-                "Sizes: XS–XL"
-              ],
-              "tag": null,
-              "featured": false,
-              "images": [
-                "/images/p21-1.jpg",
-                "/images/p21-2.jpg"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "cr-apparel",
-          "label": "Cleanroom Apparel",
-          "products": [
-            {
-              "id": "p22",
-              "name": "Cleanroom Coverall",
-              "description": "Full-body ISO-rated coverall with integrated hood. Minimises particle shed in critical environments.",
-              "specs": [
-                "Standard: ISO 14644",
-                "Material: SMS Non-woven",
-                "Sizes: S–3XL"
-              ],
-              "tag": null,
-              "featured": false,
-              "images": [
-                "/images/p22-1.jpg",
-                "/images/p22-2.jpg"
-              ]
-            },
-            {
-              "id": "p23",
-              "name": "Cleanroom Bouffant Cap",
-              "description": "Lightweight disposable bouffant caps for hair and particle containment. Latex-free.",
-              "specs": [
-                "Diameter: 21\"/24\"",
-                "Material: Non-woven PP",
-                "Pack: 100 pcs"
-              ],
-              "tag": null,
-              "featured": false,
-              "images": [
-                "/images/p23-1.jpg"
-              ]
-            }
-          ]
-        }
-      ]
+      "subcategories": []
     },
     {
       "label": "ESD & non ESD chair",
       "id": "esd-non-esd-chairs",
       "icon": "◇",
-      "subcategories": [],
-      "products": []
+      "subcategories": []
     },
     {
       "id": "soldering",
@@ -498,9 +429,5 @@
       "label": "Tape and tape dispenser",
       "icon": "◇"
     }
-  ],
-  "contact": {
-    "city": "Bengaluru",
-    "address": "Teztronics ತೆಜ್ತ್ರೋನಿಚ್ಸ್ Electronics Accessories Wholesaler"
-  }
+  ]
 }
