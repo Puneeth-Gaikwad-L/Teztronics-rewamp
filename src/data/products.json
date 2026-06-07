@@ -475,7 +475,17 @@
       "label": "ESD & non ESD chair",
       "id": "esd-non-esd-chairs",
       "icon": "◇",
-      "subcategories": []
+      "subcategories": [
+        {
+          "products": [
+            {
+              "id": "bvbdd",
+              "name": "fb",
+              "description": "bf"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "soldering",
