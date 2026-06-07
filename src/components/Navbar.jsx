@@ -96,7 +96,7 @@ export default function Navbar() {
   };
 
   const iconColor = scrolled ? "text-gray-500" : "text-white";
-  const burgerColor = scrolled ? "bg-gray-600" : "bg-white";
+  const burgerColor = scrolled ? "bg-gray-600" : "bg-[#003B8E]";
 
   return (
     <nav
