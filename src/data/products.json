@@ -1,6 +1,6 @@
 {
   "whatsappNumber": "7483581847",
- "categories": [
+  "categories": [
     {
       "id": "esd-cleanroom",
       "label": "ESD Clean Room Products",
@@ -234,7 +234,7 @@
                 "Adjustable: Yes"
               ],
               "tag": "Bestseller",
-              "featured": true,
+              "featured": false,
               "images": [
                 "/images/p12-1.jpg",
                 "/images/p12-2.jpg"
