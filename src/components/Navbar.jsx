@@ -95,7 +95,7 @@ export default function Navbar() {
     setMenuOpen(false);
   };
 
-  const iconColor = scrolled ? "text-gray-500" : "text-white";
+  const iconColor = scrolled ? "text-gray-500" : "text-[#003B8E]";
   const burgerColor = scrolled ? "bg-gray-600" : "bg-[#003B8E]";
 
   return (
