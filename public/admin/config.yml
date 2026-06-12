@@ -53,6 +53,10 @@ collections:
                     label: Label
                     widget: string
                     required: false
+                  - name: poster
+                    label: "Poster Image (shown on sub-category selection card)"
+                    widget: image
+                    required: false
                   - name: products
                     label: Products
                     widget: list

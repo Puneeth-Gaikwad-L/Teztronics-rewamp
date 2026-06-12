@@ -37,7 +37,7 @@ export default function ImageCarousel({
 
   if (total === 0) {
     return (
-      <div className="w-full h-48 bg-gray-50 flex items-center justify-center rounded-t-lg">
+      <div className="w-full h-64 bg-gray-50 flex items-center justify-center rounded-t-lg">
         <svg className="w-10 h-10 text-[#060912]/10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5M21 3.75H3A.75.75 0 002.25 4.5v15"/>
         </svg>
@@ -47,7 +47,7 @@ export default function ImageCarousel({
 
   return (
     <div
-      className="relative w-full h-48 overflow-hidden rounded-t-lg bg-gray-50 group/carousel"
+      className="relative w-full h-64 overflow-hidden rounded-t-lg bg-gray-50 group/carousel"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -63,8 +63,6 @@ export default function ImageCarousel({
         />
       ))}
 
-      {/* Gradient overlay at bottom so text below doesn't clash */}
-      <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent pointer-events-none" />
 
       {/* Arrow buttons — only visible when >1 image */}
       {total > 1 && (

@@ -29,7 +29,6 @@ const ALL_PRODUCTS = (() => {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
   const location = useLocation();
   const navigate = useNavigate();
@@ -41,10 +40,6 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  useEffect(() => {
-    if (searchOpen) inputRef.current?.focus();
-  }, [searchOpen]);
 
   useEffect(() => {
     const onKey = (e) => { if (e.key === "Escape") closeSearch(); };
@@ -72,7 +67,6 @@ export default function Navbar() {
   }, [query]);
 
   const closeSearch = () => {
-    setSearchOpen(false);
     setQuery("");
   };
 
@@ -95,7 +89,6 @@ export default function Navbar() {
     setMenuOpen(false);
   };
 
-  const iconColor = scrolled ? "text-gray-500" : "text-[#003B8E]";
   const burgerColor = scrolled ? "bg-gray-600" : "bg-[#003B8E]";
 
   return (
@@ -131,43 +124,29 @@ export default function Navbar() {
         <div className="flex items-center gap-3 ml-auto md:ml-0">
           {/* Search */}
           <div ref={searchRef} className="relative">
-            <div className={`flex items-center transition-all duration-300 ${searchOpen ? "w-56" : "w-8"}`}>
-              {searchOpen ? (
-                <div className="flex items-center w-full rounded-full border border-[#1E88FF]/40 bg-white/95 px-3 py-1.5 shadow-lg">
-                  <svg className="w-3.5 h-3.5 text-[#1E88FF] shrink-0 mr-2" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
-                  </svg>
-                  <input
-                    ref={inputRef}
-                    type="text"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Search products…"
-                    className="flex-1 bg-transparent text-[13px] text-gray-700 placeholder-gray-400 outline-none min-w-0"
-                  />
-                  {query && (
-                    <button onClick={() => setQuery("")} className="ml-1 text-gray-400 hover:text-gray-600">
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  )}
-                </div>
-              ) : (
-                <button
-                  onClick={() => setSearchOpen(true)}
-                  aria-label="Search"
-                  className={`w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors ${iconColor}`}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+            <div className="flex items-center w-44 md:w-56 rounded-full border border-[#1E88FF]/40 bg-white/95 px-3 py-1.5 shadow-lg">
+              <svg className="w-3.5 h-3.5 text-[#1E88FF] shrink-0 mr-2" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+              </svg>
+              <input
+                ref={inputRef}
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search products…"
+                className="flex-1 bg-transparent text-[13px] text-gray-700 placeholder-gray-400 outline-none min-w-0"
+              />
+              {query && (
+                <button onClick={() => setQuery("")} className="ml-1 text-gray-400 hover:text-gray-600">
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </button>
               )}
             </div>
 
             {/* Dropdown results */}
-            {searchOpen && results.length > 0 && (
+            {results.length > 0 && (
               <div className="absolute top-full right-0 mt-2 w-72 bg-white rounded-xl border border-gray-200 shadow-2xl overflow-hidden z-50">
                 {results.map((product) => (
                   <Link
@@ -206,7 +185,7 @@ export default function Navbar() {
             )}
 
             {/* No results */}
-            {searchOpen && query.trim() && results.length === 0 && (
+            {query.trim() && results.length === 0 && (
               <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-xl border border-gray-200 shadow-2xl px-4 py-5 text-center z-50">
                 <p className="text-[13px] text-gray-400">No products found for <span className="font-semibold text-gray-600">"{query}"</span></p>
               </div>

@@ -9,6 +9,7 @@
         {
           "id": "esd-flooring",
           "label": "ESD Flooring & Table Mats",
+          "poster": "",
           "products": [
             {
               "id": "p1",
@@ -20,6 +21,7 @@
                 "Colour: Black/Yellow border"
               ],
               "tag": "",
+              "featured": true,
               "images": [
                 "/images/esd-anti-fatigue-mat.jpg",
                 "/images/esd-anti-fatigue-mat-2.jpg"
@@ -35,6 +37,7 @@
                 "Colour: Green"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/esd-rubber-mat-green.jpg",
                 "/images/esd-rubber-mat-green-2.jpg"
@@ -45,6 +48,7 @@
         {
           "id": "anti-static-cleaner",
           "label": "Anti-Static Cleaner",
+          "poster": "",
           "products": [
             {
               "id": "p3",
@@ -55,6 +59,7 @@
                 "Storage: Store in a cool, dry place away from direct sunlight"
               ],
               "tag": "New",
+              "featured": true,
               "images": [
                 "/images/esd-floor-cleaner.jpg"
               ]
@@ -63,6 +68,8 @@
               "id": "p4",
               "name": "ESD safe mat & tabletop cleaner",
               "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean ESD mats, workbenches, and static-dissipative surfaces without affecting their ESD performance. It effectively removes dust, dirt, grease, and fingerprints while helping maintain a clean and reliable ESD-protected workspace.",
+              "tag": null,
+              "featured": false,
               "images": [
                 "/images/mat-table-cleaner.jpg"
               ]
@@ -72,6 +79,7 @@
         {
           "id": "floor-tapes",
           "label": "Floor Marking Tapes",
+          "poster": "",
           "products": [
             {
               "id": "p5",
@@ -83,6 +91,7 @@
                 "Colour: Yellow"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p5-1.jpg",
                 "/images/p5-2.jpg"
@@ -98,6 +107,7 @@
                 "Colour: Black"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p6-1.jpg"
               ]
@@ -107,6 +117,7 @@
         {
           "id": "esd-gloves",
           "label": "ESD Gloves & Finger Cots",
+          "poster": "",
           "products": [
             {
               "id": "p7",
@@ -118,6 +129,7 @@
                 "Surface Res: <10⁹ Ω"
               ],
               "tag": null,
+              "featured": true,
               "images": [
                 "/images/anti-static-dotted-gloves.jpg",
                 "/images/anti-static-dotted-gloves-2.jpg"
@@ -133,6 +145,7 @@
                 "Pack: 100 pcs"
               ],
               "tag": "",
+              "featured": false,
               "images": [
                 "/images/finger-cots.jpg",
                 "/images/finger-cots-2.jpg"
@@ -142,6 +155,8 @@
               "id": "p8.2",
               "name": "ESD Palm Fit PU Coated gloves",
               "description": "ESD Palm Fit PU Coated Gloves provide reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
+              "tag": null,
+              "featured": false,
               "images": [
                 "/images/esd-palm-fit-pu-coated-gloves.jpg"
               ]
@@ -150,6 +165,8 @@
               "id": "p8.3",
               "name": "ESD finger top Fit PU Coated gloves",
               "description": "ESD Finger Top Fit PU Coated Gloves provide reliable static protection with enhanced fingertip grip for precision handling of electronic components. Designed for comfort, dexterity, and control, they are ideal for electronics assembly, inspection, testing, and repair applications in ESD-protected environments",
+              "tag": null,
+              "featured": false,
               "images": [
                 "/images/esd-finger-top-fit-pu-coated-gloves.jpg"
               ]
@@ -159,6 +176,7 @@
         {
           "id": "esd-footwear",
           "label": "ESD Footwear",
+          "poster": "",
           "products": [
             {
               "id": "p9",
@@ -170,6 +188,7 @@
                 "Sizes: 36–46"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p9-1.jpg",
                 "/images/p9-2.jpg"
@@ -185,6 +204,7 @@
                 "Sizes: Universal"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p10-1.jpg"
               ]
@@ -192,18 +212,23 @@
             {
               "id": "p10.1",
               "name": "ESD cleanroom shoe",
-              "description": "ESD Cleanroom Shoes provide effective static control while helping maintain cleanliness in controlled environments. Designed for comfort, durability, and safety, they are ideal for electronics manufacturing, semiconductor facilities, laboratories, pharmaceutical production, and cleanroom applications."
+              "description": "ESD Cleanroom Shoes provide effective static control while helping maintain cleanliness in controlled environments. Designed for comfort, durability, and safety, they are ideal for electronics manufacturing, semiconductor facilities, laboratories, pharmaceutical production, and cleanroom applications.",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p10.2",
-              "name": "Manual Shoe cover dispenser",
-              "description": "The Manual Shoe Cover Dispenser provides a fast, convenient, and hygienic way to apply disposable shoe covers. Requiring no electricity, it helps maintain cleanliness and contamination control in cleanrooms, laboratories, healthcare facilities, manufacturing plants, and other controlled environments."
+              "name": "Manual Shoe cover dispenser",
+              "description": "The Manual Shoe Cover Dispenser provides a fast, convenient, and hygienic way to apply disposable shoe covers. Requiring no electricity, it helps maintain cleanliness and contamination control in cleanrooms, laboratories, healthcare facilities, manufacturing plants, and other controlled environments.",
+              "tag": null,
+              "featured": false
             }
           ]
         },
         {
           "id": "esd-garments",
           "label": "ESD Garments",
+          "poster": "",
           "products": [
             {
               "id": "p11",
@@ -215,6 +240,7 @@
                 "Sizes: S–3XL"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p11-1.jpg",
                 "/images/p11-2.jpg"
@@ -230,6 +256,7 @@
                 "Adjustable: Yes"
               ],
               "tag": "",
+              "featured": false,
               "images": [
                 "/images/p12-1.jpg",
                 "/images/p12-2.jpg"
@@ -238,18 +265,23 @@
             {
               "id": "p12.1",
               "name": "ESD Cap & Bouffant Cap",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p12.2",
               "name": "ESD Shoe Cover",
-              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas."
+              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas.",
+              "tag": null,
+              "featured": false
             }
           ]
         },
         {
           "id": "esd-grounding",
           "label": "ESD Grounding",
+          "poster": "",
           "products": [
             {
               "id": "p13",
@@ -261,6 +293,7 @@
                 "Input: 12V DC"
               ],
               "tag": "New",
+              "featured": true,
               "images": [
                 "/images/p13-1.jpg"
               ]
@@ -268,32 +301,44 @@
             {
               "id": "p13.1",
               "name": "ESD Wrist Strap Cordless",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p13.2",
               "name": "Grounding Cord",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p13.3",
               "name": "Common Grounding Point",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p13.4",
               "name": "ESD Heel Strap",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p13.5",
               "name": "ESD Field Service Kit",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             },
             {
               "id": "p13.6",
               "name": "ESD Shoe Cover with Conductive Strip",
-              "description": "na"
+              "description": "na",
+              "tag": null,
+              "featured": false
             }
           ]
         }
@@ -307,6 +352,7 @@
         {
           "id": "esd-bins",
           "label": "ESD Bins & Trays",
+          "poster": "",
           "products": [
             {
               "id": "p14",
@@ -318,6 +364,7 @@
                 "Sizes: Various"
               ],
               "tag": null,
+              "featured": true,
               "images": [
                 "/images/p14-1.jpg",
                 "/images/p14-2.jpg"
@@ -333,6 +380,7 @@
                 "Colour: Black"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p15-1.jpg"
               ]
@@ -342,6 +390,7 @@
         {
           "id": "esd-bags",
           "label": "ESD Bags & Packaging",
+          "poster": "",
           "products": [
             {
               "id": "p16",
@@ -353,6 +402,7 @@
                 "Sizes: Custom"
               ],
               "tag": null,
+              "featured": true,
               "images": [
                 "/images/p16-1.jpg",
                 "/images/p16-2.jpg"
@@ -368,6 +418,7 @@
                 "Sizes: Custom"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p17-1.jpg"
               ]
@@ -377,6 +428,7 @@
         {
           "id": "esd-carts",
           "label": "ESD Carts & Trolleys",
+          "poster": "",
           "products": [
             {
               "id": "p18",
@@ -388,6 +440,7 @@
                 "Wheels: Conductive"
               ],
               "tag": null,
+              "featured": false,
               "images": [
                 "/images/p18-1.jpg",
                 "/images/p18-2.jpg"
