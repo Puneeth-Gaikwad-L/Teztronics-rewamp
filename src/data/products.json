@@ -12,7 +12,7 @@
           "poster": "",
           "products": [
             {
-              "id": "p1",
+              "id": "esd-anti-fatigue-mat",
               "name": "ESD Anti-Fatigue Mat",
               "description": "ESD Anti-Fatigue Mat provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
               "specs": [
@@ -28,7 +28,7 @@
               ]
             },
             {
-              "id": "p2",
+              "id": "esd-rubber-mat-green",
               "name": "ESD Rubber Mat — Green",
               "description": "ESD Rubber Mat provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
               "specs": [
