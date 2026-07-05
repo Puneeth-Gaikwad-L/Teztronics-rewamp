@@ -172,10 +172,10 @@ export default function Products() {
             className="font-['Plus_Jakarta_Sans'] font-extrabold text-[#003B8E] leading-[1.05] tracking-[-1.5px]"
             style={{ fontSize: "clamp(30px, 3.5vw, 46px)" }}
           >
-            Everything you need for ESD & cleanroom protection.
+            Protecting Electronics with Reliable ESD & Cleanroom Solutions
           </h2>
           <p className="text-gray-400 text-[15px] mt-3 leading-relaxed">
-            Browse our full range and reach us instantly on WhatsApp for pricing and availability.
+            Browse our range of ESD control and cleanroom products, and contact us for pricing and availability.
           </p>
         </div>
 

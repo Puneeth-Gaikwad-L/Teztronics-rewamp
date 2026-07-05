@@ -89,18 +89,11 @@ export default function FeaturedProducts() {
             className="flex gap-6 overflow-x-auto snap-x snap-mandatory flex-1"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
-          {FEATURED.map((product, i) => (
+          {FEATURED.map((product) => (
             <div
               key={product.id}
               className="group relative flex flex-col rounded-xl border border-gray-200 bg-gray-50 overflow-hidden hover:border-[#1E88FF]/35 transition-all duration-300 shrink-0 w-[300px] snap-start"
             >
-              {/* Number badge */}
-              <div className="absolute top-4 left-4 z-10 w-7 h-7 rounded-full bg-white/70 border border-gray-300 flex items-center justify-center">
-                <span className="font-['Plus_Jakarta_Sans'] font-bold text-[11px] text-gray-500">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-              </div>
-
               {/* Tag badge */}
               {product.tag && (
                 <div className="absolute top-4 right-4 z-10 px-2.5 py-1 rounded-full bg-[#1E88FF] text-white font-['Plus_Jakarta_Sans'] font-bold text-[10px] uppercase tracking-widest">

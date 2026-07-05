@@ -160,8 +160,8 @@ export default function ContactForm() {
                 className="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-[#1E88FF]/30 hover:bg-[#1E88FF]/5 transition-all duration-200 group"
               >
                 <div className="w-10 h-10 rounded-full bg-[#1E88FF]/10 flex items-center justify-center text-[#1E88FF] group-hover:bg-[#1E88FF]/20 transition-colors shrink-0">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                   </svg>
                 </div>
                 <div>
@@ -337,8 +337,8 @@ export default function ContactForm() {
                 className="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-[#1E88FF]/40 hover:bg-[#1E88FF]/5 transition-all duration-200 group text-left"
               >
                 <div className="w-10 h-10 rounded-full bg-[#1E88FF]/10 flex items-center justify-center text-[#1E88FF] shrink-0">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                   </svg>
                 </div>
                 <div>

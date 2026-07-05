@@ -60,7 +60,7 @@ export default function About() {
               India’s trusted source for ESD & cleanroom protection.
             </h2>
             <p className="text-gray-600 text-[15px] leading-[1.8] mb-5 font-light">
-              Teztronics makes ESD and cleanroom protection simple, reliable, and accessible for factories, labs, workshops, and research facilities. From workstation essentials to cleanroom consumables, we help you create safer and more controlled workspaces.
+              Teztronics is a trusted supplier of ESD control and cleanroom products for factories, labs, workshops, and research facilities across India. From workstation essentials to cleanroom consumables, we help you source reliable products for safer, cleaner, and more controlled workspaces.F
             </p>
             <p className="text-gray-600 text-[15px] leading-[1.8] font-light">
               Based in Bengaluru, we supply ESD control and cleanroom products across India, including grounding mats, wrist straps, gloves, shoe covers, cleaning solutions, and cleanroom apparel.

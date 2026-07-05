@@ -95,6 +95,15 @@ collections:
                           name: image
                           label: Image Path
                           widget: image
+                      - name: attachment
+                        label: "Attachment (PDF datasheet/brochure — shown on product detail page)"
+                        widget: file
+                        media_folder: "/public/files"
+                        public_folder: "/files"
+                        media_library:
+                          config:
+                            multiple: false
+                        required: false
               - name: products
                 label: Products (flat — used when no subcategories)
                 widget: list
@@ -135,3 +144,10 @@ collections:
                       name: image
                       label: Image Path
                       widget: image
+                  - name: attachment
+                    label: "Attachment (PDF datasheet/brochure — shown on product detail page)"
+                    widget: file
+                    media_library:
+                      config:
+                        multiple: false
+                    required: false

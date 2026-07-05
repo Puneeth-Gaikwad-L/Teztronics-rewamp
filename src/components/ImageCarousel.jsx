@@ -73,7 +73,7 @@ export default function ImageCarousel({
                        w-7 h-7 rounded-full bg-white/80 border border-gray-300
                        flex items-center justify-center
                        opacity-0 group-hover/carousel:opacity-100
-                       hover:bg-black/80 hover:border-[#1E88FF]/40
+                       hover:bg-[#1E88FF] hover:border-[#1E88FF]/40 hover:text-white
                        transition-all duration-200"
             aria-label="Previous image"
           >
@@ -88,7 +88,7 @@ export default function ImageCarousel({
                        w-7 h-7 rounded-full bg-white/80 border border-gray-300
                        flex items-center justify-center
                        opacity-0 group-hover/carousel:opacity-100
-                       hover:bg-black/80 hover:border-[#1E88FF]/40
+                       hover:bg-[#1E88FF] hover:border-[#1E88FF]/40 hover:text-white
                        transition-all duration-200"
             aria-label="Next image"
           >
