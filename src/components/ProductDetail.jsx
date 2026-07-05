@@ -203,9 +203,11 @@ export default function ProductDetail() {
             </h1>
 
             <p className="text-gray-500 text-[15px] leading-[1.8] font-light mb-8">
-              {product.description && product.description !== "na"
-                ? product.description
-                : "Detailed description coming soon. Contact us for more information."}
+              {(() => {
+                const detail = product.detailDescription && product.detailDescription !== "na" ? product.detailDescription : null;
+                const card = product.description && product.description !== "na" ? product.description : null;
+                return detail || card || "Detailed description coming soon. Contact us for more information.";
+              })()}
             </p>
 
             {product.specs?.length > 0 && (

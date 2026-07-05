@@ -68,8 +68,12 @@ collections:
                         label: Name
                         widget: string
                       - name: description
-                        label: Description
+                        label: "Card Description (shown on product listing cards)"
                         widget: text
+                      - name: detailDescription
+                        label: "Detail Page Description (shown on product detail page — falls back to Card Description if left blank)"
+                        widget: text
+                        required: false
                       - name: specs
                         label: Specs
                         widget: list
@@ -117,8 +121,12 @@ collections:
                     label: Name
                     widget: string
                   - name: description
-                    label: Description
+                    label: "Card Description (shown on product listing cards)"
                     widget: text
+                  - name: detailDescription
+                    label: "Detail Page Description (shown on product detail page — falls back to Card Description if left blank)"
+                    widget: text
+                    required: false
                   - name: specs
                     label: Specs
                     widget: list
