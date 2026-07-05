@@ -30,6 +30,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [activeHash, setActiveHash] = useState("hero");
   const location = useLocation();
   const navigate = useNavigate();
   const searchRef = useRef(null);
@@ -40,6 +41,23 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (location.pathname !== "/") return;
+    const sections = NAV_LINKS.map((l) => document.getElementById(l.hash)).filter(Boolean);
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveHash(entry.target.id);
+        });
+      },
+      { rootMargin: "-72px 0px -60% 0px", threshold: 0 }
+    );
+    sections.forEach((sec) => observer.observe(sec));
+    return () => observer.disconnect();
+  }, [location.pathname]);
 
   useEffect(() => {
     const onKey = (e) => { if (e.key === "Escape") closeSearch(); };
@@ -74,6 +92,7 @@ export default function Navbar() {
     e.preventDefault();
     setMenuOpen(false);
     closeSearch();
+    setActiveHash(hash);
     if (location.pathname === "/") {
       document.getElementById(hash)?.scrollIntoView({ behavior: "smooth" });
     } else {
@@ -107,17 +126,22 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
-          {NAV_LINKS.map((l) => (
-            <li key={l.hash}>
-              <a
-                href={`#${l.hash}`}
-                onClick={(e) => handleNavClick(e, l.hash)}
-                className="text-[13px] font-medium tracking-wide text-gray-500 hover:text-[#003B8E] transition-colors duration-200"
-              >
-                {l.label}
-              </a>
-            </li>
-          ))}
+          {NAV_LINKS.map((l) => {
+            const isActive = location.pathname === "/" && activeHash === l.hash;
+            return (
+              <li key={l.hash}>
+                <a
+                  href={`#${l.hash}`}
+                  onClick={(e) => handleNavClick(e, l.hash)}
+                  className={`text-[13px] font-medium tracking-wide transition-colors duration-200 ${
+                    isActive ? "text-[#1E88FF] font-semibold" : "text-gray-500 hover:text-[#003B8E]"
+                  }`}
+                >
+                  {l.label}
+                </a>
+              </li>
+            );
+          })}
         </ul>
 
         {/* Right side */}
@@ -220,17 +244,22 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? "max-h-80" : "max-h-0"} bg-[#f0f4fa]/95 backdrop-blur-xl border-t border-gray-200`}>
         <ul className="px-6 py-4 flex flex-col gap-4">
-          {NAV_LINKS.map((l) => (
-            <li key={l.hash}>
-              <a
-                href={`#${l.hash}`}
-                onClick={(e) => handleNavClick(e, l.hash)}
-                className="block text-[15px] font-medium text-[#060912]/60 hover:text-[#060912] transition-colors"
-              >
-                {l.label}
-              </a>
-            </li>
-          ))}
+          {NAV_LINKS.map((l) => {
+            const isActive = location.pathname === "/" && activeHash === l.hash;
+            return (
+              <li key={l.hash}>
+                <a
+                  href={`#${l.hash}`}
+                  onClick={(e) => handleNavClick(e, l.hash)}
+                  className={`block text-[15px] font-medium transition-colors ${
+                    isActive ? "text-[#1E88FF]" : "text-[#060912]/60 hover:text-[#060912]"
+                  }`}
+                >
+                  {l.label}
+                </a>
+              </li>
+            );
+          })}
           <li>
             <a
               href="#contact"
