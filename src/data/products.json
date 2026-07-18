@@ -139,7 +139,7 @@
               "detailDescription": "Ensure safe handling of sensitive electronic components with our ESD Dotted Gloves. Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices and assemblies during manufacturing, testing, inspection, and repair processes.\n\nFeaturing anti-slip PVC dots on the palm and fingers, the gloves provide enhanced grip and control when handling PCBs, electronic components, tools, and packaging materials. The lightweight, breathable fabric offers comfort for extended wear while maintaining flexibility and dexterity for precision tasks.\n\nIdeal for electronics manufacturing, assembly lines, service centers, laboratories, and ESD-protected workstations, these gloves combine reliable static control with improved handling performance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Anti-slip PVC dots for enhanced grip and secure handling\n* Lightweight, breathable, and comfortable for all-day use\n* Flexible design for improved dexterity and precision\n* Reusable and durable construction\n* Suitable for ESD-safe work environments"
             },
             {
-              "id": "p8",
+              "id": "esd_antistatic_finger_cots",
               "name": "ESD Anti-Static Finger Cots",
               "description": "ESD Anti-Static Finger Cots provide reliable protection against electrostatic discharge, fingerprints, moisture, and contaminants when handling sensitive electronic components. Ideal for precision assembly, inspection, testing, and repair applications in ESD-protected environments.",
               "specs": [
@@ -162,7 +162,8 @@
               "featured": false,
               "images": [
                 "/images/esd-palm-fit-pu-coated-gloves.jpg"
-              ]
+              ],
+              "detailDescription": "Protect sensitive electronic components while maintaining excellent grip and precision with our ESD Palm Fit PU Coated Gloves. Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices during assembly, inspection, testing, and repair operations.\n\nThe seamless knitted liner provides a comfortable and breathable fit, while the polyurethane (PU) coating on the palm enhances grip, abrasion resistance, and handling control. The lightweight design allows for superior finger sensitivity and dexterity, making these gloves ideal for tasks that require accuracy and precision.\n\nSuitable for electronics manufacturing, semiconductor facilities, assembly lines, laboratories, and ESD-protected workstations, these gloves offer the perfect combination of static control, comfort, and durability.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* PU-coated palm for enhanced grip and handling control\n* Excellent finger sensitivity and dexterity for precision work\n* Lightweight, breathable, and comfortable for extended use\n* Durable and abrasion-resistant construction\n* Reusable and suitable for ESD-safe environments"
             },
             {
               "id": "p8.3",
