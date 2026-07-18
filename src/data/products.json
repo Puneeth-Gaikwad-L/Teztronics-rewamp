@@ -122,7 +122,7 @@
           "poster": "",
           "products": [
             {
-              "id": "p7",
+              "id": "esd_dotted_gloves",
               "name": "ESD Dotted Gloves",
               "description": "ESD Dotted Gloves provide reliable static protection while offering enhanced grip for handling electronic components, PCBs, tools, and materials. Designed for comfort, durability, and precision, they are ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "specs": [
@@ -135,7 +135,8 @@
               "images": [
                 "/images/anti-static-dotted-gloves.jpg",
                 "/images/anti-static-dotted-gloves-2.jpg"
-              ]
+              ],
+              "detailDescription": "Ensure safe handling of sensitive electronic components with our ESD Dotted Gloves. Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices and assemblies during manufacturing, testing, inspection, and repair processes.\n\nFeaturing anti-slip PVC dots on the palm and fingers, the gloves provide enhanced grip and control when handling PCBs, electronic components, tools, and packaging materials. The lightweight, breathable fabric offers comfort for extended wear while maintaining flexibility and dexterity for precision tasks.\n\nIdeal for electronics manufacturing, assembly lines, service centers, laboratories, and ESD-protected workstations, these gloves combine reliable static control with improved handling performance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Anti-slip PVC dots for enhanced grip and secure handling\n* Lightweight, breathable, and comfortable for all-day use\n* Flexible design for improved dexterity and precision\n* Reusable and durable construction\n* Suitable for ESD-safe work environments"
             },
             {
               "id": "p8",
