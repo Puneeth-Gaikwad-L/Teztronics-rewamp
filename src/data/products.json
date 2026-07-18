@@ -152,10 +152,11 @@
               "images": [
                 "/images/finger-cots.jpg",
                 "/images/finger-cots-2.jpg"
-              ]
+              ],
+              "detailDescription": "**ESD Anti-Static Finger Cots**\n\nProtect sensitive electronic components from electrostatic discharge and contamination with our ESD Anti-Static Finger Cots. Designed for precision handling applications, these finger cots provide a safe barrier between the user and delicate components, helping prevent damage caused by static electricity, fingerprints, moisture, oils, and dust.\n\nMade from high-quality anti-static materials, they offer excellent flexibility, comfort, and finger sensitivity, allowing users to perform detailed assembly, inspection, testing, and repair tasks with confidence. Their snug fit ensures precise control when handling small electronic parts and devices.\n\nIdeal for electronics manufacturing, semiconductor production, laboratories, cleanrooms, and repair workstations, ESD Anti-Static Finger Cots are an essential solution for maintaining product quality and ESD protection.\n\n**Key Features**\n\n* Helps prevent electrostatic discharge (ESD) damage\n* Protects components from fingerprints, oils, moisture, and contaminants\n* Excellent finger sensitivity for precision handling\n* Comfortable, flexible, and easy to wear\n* Suitable for use in ESD-safe and clean environments\n* Available in multiple sizes for a secure fit\n\nMaintain product integrity and improve handling safety with our ESD Anti-Static Finger Cots, designed for reliable protection in ESD-sensitive environments.\n"
             },
             {
-              "id": "p8.2",
+              "id": "esd_palm_fit_pu_coated_gloves",
               "name": "ESD Palm Fit PU Coated gloves",
               "description": "ESD Palm Fit PU Coated Gloves provide reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "tag": null,
