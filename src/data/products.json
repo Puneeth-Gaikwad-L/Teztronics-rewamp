@@ -53,7 +53,7 @@
           "poster": "",
           "products": [
             {
-              "id": "p3",
+              "id": "esd_safe_floor_cleaner",
               "name": "ESD safe Floor Cleaner",
               "description": "ESD Safe Floor Cleaner is specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
               "specs": [
@@ -67,7 +67,7 @@
               ]
             },
             {
-              "id": "p4",
+              "id": "esd_safe_mat_&_tabletop_cleaner",
               "name": "ESD safe mat & tabletop cleaner",
               "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean ESD mats, workbenches, and static-dissipative surfaces without affecting their ESD performance. It effectively removes dust, dirt, grease, and fingerprints while helping maintain a clean and reliable ESD-protected workspace.",
               "tag": null,
