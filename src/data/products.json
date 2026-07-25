@@ -202,9 +202,9 @@
               ]
             },
             {
-              "id": "p10",
+              "id": "esd_slippers",
               "name": "ESD Slippers",
-              "description": "Lightweight ESD cleanroom slippers for operators use. Easy-slip design for rapid changeover at entry points.",
+              "description": "Provides reliable static control while ensuring comfort and safety during extended use. Made from high-quality ESD-safe materials, they help dissipate static charges and are ideal for maintaining ESD protection in electronics manufacturing, cleanrooms, laboratories, and other controlled environments.",
               "specs": [
                 "Material: PVC",
                 "Sole Res: <10⁹ Ω",
