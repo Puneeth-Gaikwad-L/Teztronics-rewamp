@@ -14,7 +14,7 @@
             {
               "id": "esd-anti-fatigue-mat",
               "name": "ESD Anti-Fatigue Mat",
-              "description": "ESD Anti-Fatigue Mat provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
+              "description": "Provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 15mm",
@@ -31,7 +31,7 @@
             {
               "id": "esd-rubber-mat-green",
               "name": "ESD Rubber Mat — Green",
-              "description": "ESD Rubber Mat provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
+              "description": "Provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 2mm",
@@ -55,7 +55,7 @@
             {
               "id": "esd_safe_floor_cleaner",
               "name": "ESD safe Floor Cleaner",
-              "description": "ESD Safe Floor Cleaner is specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
+              "description": "Specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
               "specs": [
                 "Volume: 5ltr",
                 "Storage: Store in a cool, dry place away from direct sunlight"
@@ -64,7 +64,8 @@
               "featured": true,
               "images": [
                 "/images/esd-floor-cleaner.jpg"
-              ]
+              ],
+              "detailDescription": "Maintain clean, static-controlled flooring with our ESD Safe Floor Cleaner. Specially formulated for use on ESD floors and conductive flooring systems, this cleaner effectively removes dirt, dust, grease, and everyday contaminants while helping preserve the electrical properties required for electrostatic discharge protection.\n\nUnlike conventional cleaning products that may leave insulating residues, the ESD-safe formula is designed to clean without compromising the performance of static-dissipative and conductive floor surfaces. It dries quickly, leaves no harmful residue, and helps maintain a safe environment for handling sensitive electronic components and equipment.\n\nIdeal for electronics manufacturing facilities, cleanrooms, laboratories, assembly areas, and ESD-protected environments, this cleaner supports routine maintenance while helping extend the life and effectiveness of ESD flooring systems.\n\n**Key Features**\n\n* Designed specifically for ESD and conductive flooring\n* Effectively removes dust, dirt, grease, and contaminants\n* Helps maintain the static-dissipative properties of ESD floors\n* Residue-free and fast-drying formula\n* Safe for regular cleaning and maintenance\n* Easy to use and suitable for large floor areas\n* Supports ESD compliance in protected environments."
             },
             {
               "id": "esd_safe_mat_&_tabletop_cleaner",
