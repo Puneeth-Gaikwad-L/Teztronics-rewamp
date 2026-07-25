@@ -236,6 +236,13 @@
               "images": [
                 "/images/shoe-cover-dispenser.jpeg"
               ]
+            },
+            {
+              "featured": false,
+              "name": "ESD Shoe Cover",
+              "description": "Provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas.",
+              "id": "esd_shoe_cover",
+              "detailDescription": "Protect sensitive environments from static discharge and contamination with our ESD Shoe Covers. Designed for use in ESD-protected areas, these shoe covers help prevent the buildup of static electricity while minimizing the introduction of dust, dirt, and other contaminants into controlled workspaces.\n\nMade from high-quality ESD-safe materials, they provide reliable static control and comfortable wear without compromising mobility. Lightweight and easy to use, ESD Shoe Covers are an ideal solution for personnel working in electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other static-sensitive environments.\n\nWhether used by employees, visitors, or maintenance personnel, these shoe covers help support workplace cleanliness, product quality, and ESD compliance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Helps reduce contamination from footwear\n* Lightweight and comfortable for extended use\n* Easy to wear and dispose of\n* Suitable for ESD-protected and controlled environments\n* Durable construction for reliable performance\n* Supports workplace cleanliness and ESD control programs."
             }
           ]
         },
@@ -278,16 +285,9 @@
               "detailDescription": "Ensure complete body protection and effective static control with our ESD Coverall. Designed for ESD-sensitive and controlled environments, this one-piece garment helps prevent the buildup of static electricity while minimizing particle contamination, making it ideal for handling sensitive electronic components and equipment.\n\nManufactured from high-quality ESD-safe fabric with conductive fibers, the coverall provides reliable electrostatic discharge (ESD) protection without compromising comfort. Its lightweight, breathable design allows for extended wear, while the ergonomic fit ensures ease of movement during assembly, inspection, testing, and production activities.\n\nDesigned for durability and repeated use, the ESD Coverall is an essential part of a comprehensive ESD control program, helping maintain product quality, workplace safety, and compliance in static-controlled environments.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* High-quality ESD-safe fabric with conductive fibers\n* Full-body coverage to help minimize contamination\n* Lightweight, breathable, and comfortable for extended wear\n* Durable and reusable construction\n* Ergonomic fit for improved mobility and flexibility\n* Suitable for ESD-protected and controlled environments\n* Easy to clean and maintain\n\nMaintain a clean, safe, and static-controlled workplace with our ESD Coverall, engineered to deliver dependable ESD protection and all-day comfort."
             },
             {
-              "id": "p12.1",
+              "id": "esd_Cap&bouffant_cap",
               "name": "ESD Cap & Bouffant Cap",
               "description": "na",
-              "tag": null,
-              "featured": false
-            },
-            {
-              "id": "p12.2",
-              "name": "ESD Shoe Cover",
-              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas.",
               "tag": null,
               "featured": false
             }
