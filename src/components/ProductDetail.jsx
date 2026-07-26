@@ -18,6 +18,44 @@ function getAllProducts() {
   return all;
 }
 
+function renderInlineMarkdown(text) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={i} className="font-semibold text-gray-700">
+        {part.slice(2, -2)}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
+function renderDescription(text) {
+  return text
+    .trim()
+    .split(/\n\s*\n/)
+    .map((block, i) => {
+      const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+      const isList = lines.length > 0 && lines.every((l) => l.startsWith("* "));
+
+      if (isList) {
+        return (
+          <ul key={i} className="list-disc pl-5 space-y-1.5 mb-5">
+            {lines.map((l, j) => (
+              <li key={j}>{renderInlineMarkdown(l.slice(2))}</li>
+            ))}
+          </ul>
+        );
+      }
+
+      return (
+        <p key={i} className="mb-5 last:mb-0">
+          {renderInlineMarkdown(lines.join(" "))}
+        </p>
+      );
+    });
+}
+
 function findProduct(productId) {
   for (const cat of categories) {
     if (cat.subcategories?.length > 0) {
@@ -195,13 +233,13 @@ export default function ProductDetail() {
               {product.name}
             </h1>
 
-            <p className="text-gray-500 text-[15px] leading-[1.8] font-light mb-8">
+            <div className="text-gray-500 text-[15px] leading-[1.8] font-light mb-8">
               {(() => {
                 const detail = product.detailDescription && product.detailDescription !== "na" ? product.detailDescription : null;
                 const card = product.description && product.description !== "na" ? product.description : null;
-                return detail || card || "Detailed description coming soon. Contact us for more information.";
+                return renderDescription(detail || card || "Detailed description coming soon. Contact us for more information.");
               })()}
-            </p>
+            </div>
 
             {product.specs?.length > 0 && (
               <div className="mb-8 p-5 rounded-xl bg-gray-50 border border-gray-100">
