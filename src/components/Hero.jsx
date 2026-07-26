@@ -216,7 +216,7 @@ export default function Hero() {
         </g>
 
         {/* ── SPARK 2 — left bus junction ── */}
-        <g transform="translate(218,480)" filter="url(#sparkGlow)">
+        <g transform="translate(82,198)" filter="url(#sparkGlow)">
           <circle cx="0" cy="0" r="17" fill="rgba(30,136,255,0.06)" filter="url(#sparkHalo)" />
           <line x1="-13" y1="0" x2="13" y2="0" stroke="rgba(30,136,255,0.88)" strokeWidth="1.4" strokeLinecap="round" />
           <line x1="0" y1="-13" x2="0" y2="13" stroke="rgba(30,136,255,0.88)" strokeWidth="1.4" strokeLinecap="round" />
