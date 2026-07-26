@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import data from "../data/products.json";
 const { categories } = data;
-const WHATSAPP_NUMBER = data.whatsappNumber.replace(/\D/g, "");
+import EnquireButton from "./EnquireButton";
 
 const FEATURED = (() => {
   const all = [];
@@ -16,13 +16,6 @@ const FEATURED = (() => {
   }
   return all;
 })();
-
-function buildWhatsAppUrl(name) {
-  const message = encodeURIComponent(
-    `Hi Teztronics,\n\nI would like to enquire about:\n*${name}*\n\nPlease share pricing and availability. Thank you.`
-  );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
-}
 
 export default function FeaturedProducts() {
   const scrollRef = useRef(null);
@@ -150,14 +143,12 @@ export default function FeaturedProducts() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
                     </svg>
                   </Link>
-                  <a
-                    href={buildWhatsAppUrl(product.name)}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <EnquireButton
+                    productName={product.name}
                     className="inline-flex items-center justify-center w-full py-2.5 rounded-sm bg-[#1E88FF]/10 border border-[#1E88FF]/25 hover:bg-[#1E88FF]/20 hover:border-[#1E88FF]/50 text-[#1E88FF] font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest transition-all duration-200"
                   >
                     Enquire
-                  </a>
+                  </EnquireButton>
                 </div>
               </div>
             </div>

@@ -2,17 +2,10 @@ import { useState, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import data from "../data/products.json";
 const { categories } = data;
-const WHATSAPP_NUMBER = data.whatsappNumber.replace(/\D/g, "");
 import ImageCarousel from "./ImageCarousel";
+import EnquireButton from "./EnquireButton";
 
 const hasSubcategories = (cat) => cat?.subcategories?.length > 0;
-
-function buildWhatsAppUrl(product) {
-  const message = encodeURIComponent(
-    `Hi Teztronics,\n\nI would like to enquire about:\n*${product.name}*\n\nPlease share pricing and availability. Thank you.`
-  );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
-}
 
 function SubcategoryCard({ sub, onClick }) {
   const poster = sub.poster || sub.products?.[0]?.images?.[0];
@@ -101,14 +94,12 @@ function ProductCard({ product }) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
             </svg>
           </Link>
-          <a
-            href={buildWhatsAppUrl(product)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <EnquireButton
+            productName={product.name}
             className="inline-flex items-center justify-center w-full py-2.5 rounded-sm border border-gray-300 hover:border-[#1E88FF]/50 hover:bg-[#1E88FF]/10 text-[#060912]/60 hover:text-[#1E88FF] font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest transition-all duration-200"
           >
             Enquire
-          </a>
+          </EnquireButton>
         </div>
       </div>
     </div>

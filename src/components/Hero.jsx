@@ -325,46 +325,14 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right — decorative cards */}
-        <div className="hidden md:block relative h-[460px]">
-          {/* Aurora Glow Background */}
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div
-              className="absolute top-[-80px] right-[-50px] w-[320px] h-[320px] rounded-full blur-[120px] opacity-25"
-              style={{
-                background:
-                  "radial-gradient(circle, rgba(0,59,142,0.8) 0%, rgba(0,59,142,0) 70%)",
-              }}
-            />
-
-            <div
-              className="absolute bottom-[-100px] left-[-50px] w-[280px] h-[280px] rounded-full blur-[110px] opacity-15"
-              style={{
-                background:
-                  "radial-gradient(circle, rgba(30,136,255,0.8) 0%, rgba(30,136,255,0) 70%)",
-              }}
-            />
-
-            <div
-              className="absolute top-[180px] left-[140px] w-[180px] h-[180px] rounded-full blur-[80px] opacity-10"
-              style={{
-                background:
-                  "radial-gradient(circle, rgba(58,184,122,0.8) 0%, rgba(58,184,122,0) 70%)",
-              }}
-            />
-          </div>
-
-          {/* Card 1 */}
-          <div
-            className="absolute top-0 right-0 w-[280px] p-6 overflow-hidden rounded-[32px] border border-[#1E88FF]/25 backdrop-blur-[30px] shadow-[0_10px_40px_rgba(30,136,255,0.18)]"
-            style={{ animation: "floatA 5s ease-in-out infinite", background: "rgba(30,136,255,0.08)" }}
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(30,136,255,0.18)] via-[rgba(30,136,255,0.05)] to-transparent pointer-events-none" />
-
-            <div className="relative z-10">
-              <div className="w-10 h-10 rounded-2xl border border-white/70 bg-[rgba(30,136,255,0.12)] backdrop-blur-xl flex items-center justify-center shadow-[0_4px_20px_rgba(30,136,255,0.15)] mb-4">
+        {/* Right — feature cards */}
+        <div className="hidden md:flex flex-col gap-5">
+          {/* Card 1 — with product image */}
+          <div className="relative rounded-[28px] border border-gray-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.07)] overflow-hidden p-8 min-h-[250px] flex items-center">
+            <div className="relative z-10 max-w-[52%]">
+              <div className="w-12 h-12 rounded-xl bg-[#1E88FF]/10 flex items-center justify-center text-[#1E88FF] mb-5">
                 <svg
-                  className="w-4 h-4 text-[#1E88FF]"
+                  className="w-5 h-5"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
@@ -378,40 +346,28 @@ export default function Hero() {
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[14px] mb-1">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[19px] leading-snug mb-2">
                 Quality-Assured Products
               </p>
 
-              <p className="text-gray-600 text-[12px] leading-relaxed">
+              <p className="text-gray-500 text-[13px] leading-relaxed">
                 Carefully selected ESD and cleanroom products designed to support safe, reliable, and controlled workspaces.
               </p>
-
-              <div className="mt-4 flex items-center gap-2">
-                {["#1E88FF", "#003B8E", "#3ab87a"].map((c) => (
-                  <span
-                    key={c}
-                    className="w-2 h-2 rounded-full"
-                    style={{ background: c }}
-                  />
-                ))}
-                <span className="text-[10px] text-gray-400 ml-1 uppercase tracking-widest">
-                  Certified
-                </span>
-              </div>
             </div>
+
+            <img
+              src="/images/hero_img.png"
+              alt="ESD wrist strap, gloves, cleanroom garment and static shielding bag"
+              className="absolute top-0 right-0 h-full w-[46%] object-cover rounded-l-[110px]"
+            />
           </div>
 
-          {/* Card 2 */}
-          <div
-            className="absolute top-[160px] left-[10px] w-[250px] p-6 overflow-hidden rounded-[32px] border border-[#1E88FF]/25 backdrop-blur-[30px] shadow-[0_10px_40px_rgba(30,136,255,0.18)]"
-            style={{ animation: "floatB 5s ease-in-out infinite", background: "rgba(30,136,255,0.08)" }}
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(30,136,255,0.18)] via-[rgba(30,136,255,0.05)] to-transparent pointer-events-none" />
-
-            <div className="relative z-10">
-              <div className="w-10 h-10 rounded-2xl border border-white/70 bg-[rgba(30,136,255,0.12)] backdrop-blur-xl flex items-center justify-center shadow-[0_4px_20px_rgba(30,136,255,0.15)] mb-4">
+          {/* Card 2 + Card 3 */}
+          <div className="grid grid-cols-2 gap-5">
+            <div className="rounded-[28px] border border-gray-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.07)] p-6">
+              <div className="w-11 h-11 rounded-xl bg-[#1E88FF]/10 flex items-center justify-center text-[#003B8E] mb-4">
                 <svg
-                  className="w-4 h-4 text-[#003B8E]"
+                  className="w-5 h-5"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
@@ -425,27 +381,19 @@ export default function Hero() {
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[14px] mb-1">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] leading-snug mb-2">
                 Complete Product Range
               </p>
 
-              <p className="text-gray-600 text-[12px] leading-relaxed">
+              <p className="text-gray-500 text-[12.5px] leading-relaxed">
                 From ESD essentials to cleanroom consumables — everything your facility needs in one place.
               </p>
             </div>
-          </div>
 
-          {/* Card 3 */}
-          <div
-            className="absolute bottom-0 right-[30px] w-[230px] p-5 overflow-hidden rounded-[32px] border border-[#1E88FF]/25 backdrop-blur-[30px] shadow-[0_10px_40px_rgba(30,136,255,0.18)]"
-            style={{ animation: "floatC 5s ease-in-out infinite", background: "rgba(30,136,255,0.08)" }}
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(30,136,255,0.18)] via-[rgba(30,136,255,0.05)] to-transparent pointer-events-none" />
-
-            <div className="relative z-10">
-              <div className="w-10 h-10 rounded-2xl border border-white/70 bg-[rgba(30,136,255,0.12)] backdrop-blur-xl flex items-center justify-center shadow-[0_4px_20px_rgba(30,136,255,0.15)] mb-4">
+            <div className="rounded-[28px] border border-gray-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.07)] p-6">
+              <div className="w-11 h-11 rounded-xl bg-[#1E88FF]/10 flex items-center justify-center text-[#1E88FF] mb-4">
                 <svg
-                  className="w-4 h-4 text-[#1E88FF]"
+                  className="w-5 h-5"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
@@ -454,45 +402,20 @@ export default function Hero() {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
                   />
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[14px] mb-1">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] leading-snug mb-2">
                 Fast Support & Supply
               </p>
 
-              <p className="text-gray-600 text-[12px] leading-relaxed">
+              <p className="text-gray-500 text-[12.5px] leading-relaxed">
                 Quick guidance, easy ordering, and reliable delivery across India.
               </p>
             </div>
           </div>
-
-          {/* Decorative Lines */}
-          <svg
-            className="absolute inset-0 w-full h-full pointer-events-none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="280"
-              y1="60"
-              x2="250"
-              y2="180"
-              stroke="rgba(0,59,142,0.15)"
-              strokeWidth="1"
-              strokeDasharray="4 4"
-            />
-            <line
-              x1="258"
-              y1="298"
-              x2="322"
-              y2="355"
-              stroke="rgba(0,59,142,0.15)"
-              strokeWidth="1"
-              strokeDasharray="4 4"
-            />
-          </svg>
         </div>
       </div>
 
@@ -503,12 +426,6 @@ export default function Hero() {
         </span>
         <div className="w-px h-10 bg-gradient-to-b from-gray-300 to-transparent" />
       </div> */}
-
-      <style>{`
-        @keyframes floatA { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-12px)} }
-        @keyframes floatB { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-8px)} }
-        @keyframes floatC { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-14px)} }
-      `}</style>
     </section>
   );
 }

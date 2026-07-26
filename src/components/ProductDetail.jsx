@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import data from "../data/products.json";
+import EnquireButton from "./EnquireButton";
 
 const { categories } = data;
-const WHATSAPP_NUMBER = data.whatsappNumber.replace(/\D/g, "");
 
 function getAllProducts() {
   const all = [];
@@ -32,13 +32,6 @@ function findProduct(productId) {
     }
   }
   return null;
-}
-
-function buildWhatsAppUrl(product) {
-  const message = encodeURIComponent(
-    `Hi Teztronics,\n\nI would like to enquire about:\n*${product.name}*\n\nPlease share pricing and availability. Thank you.`
-  );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
 }
 
 export default function ProductDetail() {
@@ -251,14 +244,12 @@ export default function ProductDetail() {
             )}
 
             <div className="pt-6 border-t border-gray-100 space-y-3">
-              <a
-                href={buildWhatsAppUrl(product)}
-                target="_blank"
-                rel="noopener noreferrer"
+              <EnquireButton
+                productName={product.name}
                 className="inline-flex items-center justify-center w-full py-3.5 bg-[#1E88FF] hover:bg-[#3d9fff] text-white font-['Plus_Jakarta_Sans'] font-bold text-[13px] uppercase tracking-widest rounded-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(30,136,255,0.28)]"
               >
                 Enquire
-              </a>
+              </EnquireButton>
 
               <button
                 onClick={handleGetQuote}
