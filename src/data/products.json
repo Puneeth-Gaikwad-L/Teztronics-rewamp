@@ -14,7 +14,7 @@
             {
               "id": "esd-anti-fatigue-mat",
               "name": "ESD Anti-Fatigue Mat",
-              "description": "ESD Anti-Fatigue Mat provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
+              "description": "Provides reliable static control while reducing fatigue caused by prolonged standing. Designed for ESD-sensitive environments, they offer ergonomic comfort, improved safety, and long-lasting durability for electronics manufacturing, assembly, testing, and repair workstations.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 15mm",
@@ -26,12 +26,12 @@
                 "/images/esd-anti-fatigue-mat.jpg",
                 "/images/esd-anti-fatigue-mat-2.jpg"
               ],
-              "detailDescription": ""
+              "detailDescription": "Enhance workplace comfort while maintaining effective static control with our ESD Anti-Fatigue Mat. Specially designed for ESD-sensitive environments, this mat helps protect electronic components from electrostatic discharge while reducing fatigue caused by prolonged standing.\n\nConstructed from high-quality resilient materials, the mat provides superior cushioning and ergonomic support, helping improve comfort, productivity, and workplace safety. Its anti-static surface dissipates static charges safely, making it an ideal flooring solution for electronics manufacturing, assembly lines, laboratories, testing stations, and ESD-protected work areas.\n\nThe durable, slip-resistant design withstands daily industrial use and offers long-lasting performance in demanding environments.\n\n**Key Features**\n\n* Provides effective electrostatic discharge (ESD) protection\n* Reduces leg, foot, and back fatigue during prolonged standing\n* Ergonomic cushioning for enhanced workplace comfort\n* Durable and wear-resistant construction\n* Slip-resistant surface for improved safety\n* Easy to clean and maintain\n* Suitable for ESD-protected workstations and production areas\n\nCreate a safer, more comfortable, and static-controlled work environment with our ESD Anti-Fatigue Mat, designed to support both personnel and sensitive electronic equipment.\n"
             },
             {
               "id": "esd-rubber-mat-green",
               "name": "ESD Rubber Mat — Green",
-              "description": "ESD Rubber Mat provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
+              "description": "Provides reliable static protection for electronics workstations, assembly lines, laboratories, and repair benches. Its durable rubber construction ensures effective static control, long-lasting performance, and a safer environment for handling sensitive electronic components.",
               "specs": [
                 "Surface Resistance: 10⁶–10⁹ Ω",
                 "Thickness: 2mm",
@@ -42,7 +42,8 @@
               "images": [
                 "/images/esd-rubber-mat-green.jpg",
                 "/images/esd-rubber-mat-green-2.jpg"
-              ]
+              ],
+              "detailDescription": "Protect sensitive electronic components and create a static-safe work environment with our ESD Rubber Mat – Green. Designed for effective electrostatic discharge (ESD) protection, this anti-static mat helps prevent static buildup and safely dissipates charges that can damage electronic devices and assemblies.\n\nManufactured from high-quality rubber, the mat offers excellent durability, wear resistance, and long-term performance for daily use in demanding work environments. Its smooth, easy-to-clean surface makes it ideal for electronics manufacturing, assembly, testing, repair, and laboratory applications.\n\nSuitable for both industrial facilities and individual workstations, this ESD mat provides a reliable foundation for ESD-protected work areas while helping maintain product quality and workplace safety.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Durable rubber construction for long service life\n* Excellent resistance to wear and everyday use\n* Easy-to-clean, low-maintenance surface\n* Suitable for ESD-protected workstations and production areas\n* Available in various sizes to suit different applications"
             }
           ]
         },
@@ -52,9 +53,9 @@
           "poster": "",
           "products": [
             {
-              "id": "p3",
+              "id": "esd_safe_floor_cleaner",
               "name": "ESD safe Floor Cleaner",
-              "description": "ESD Safe Floor Cleaner is specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
+              "description": "Specially formulated to clean ESD and conductive flooring without affecting their static-control properties. It effectively removes dirt, dust, and grease while helping maintain a clean, safe, and ESD-compliant environment for electronics manufacturing, assembly, and laboratory applications.",
               "specs": [
                 "Volume: 5ltr",
                 "Storage: Store in a cool, dry place away from direct sunlight"
@@ -63,22 +64,24 @@
               "featured": true,
               "images": [
                 "/images/esd-floor-cleaner.jpg"
-              ]
+              ],
+              "detailDescription": "Maintain clean, static-controlled flooring with our ESD Safe Floor Cleaner. Specially formulated for use on ESD floors and conductive flooring systems, this cleaner effectively removes dirt, dust, grease, and everyday contaminants while helping preserve the electrical properties required for electrostatic discharge protection.\n\nUnlike conventional cleaning products that may leave insulating residues, the ESD-safe formula is designed to clean without compromising the performance of static-dissipative and conductive floor surfaces. It dries quickly, leaves no harmful residue, and helps maintain a safe environment for handling sensitive electronic components and equipment.\n\nIdeal for electronics manufacturing facilities, cleanrooms, laboratories, assembly areas, and ESD-protected environments, this cleaner supports routine maintenance while helping extend the life and effectiveness of ESD flooring systems.\n\n**Key Features**\n\n* Designed specifically for ESD and conductive flooring\n* Effectively removes dust, dirt, grease, and contaminants\n* Helps maintain the static-dissipative properties of ESD floors\n* Residue-free and fast-drying formula\n* Safe for regular cleaning and maintenance\n* Easy to use and suitable for large floor areas\n* Supports ESD compliance in protected environments."
             },
             {
-              "id": "p4",
+              "id": "esd_safe_mat_&_tabletop_cleaner",
               "name": "ESD safe mat & tabletop cleaner",
               "description": "ESD Safe Mat & Tabletop Cleaner is specially formulated to clean ESD mats, workbenches, and static-dissipative surfaces without affecting their ESD performance. It effectively removes dust, dirt, grease, and fingerprints while helping maintain a clean and reliable ESD-protected workspace.",
               "tag": null,
               "featured": false,
               "images": [
                 "/images/mat-table-cleaner.jpg"
-              ]
+              ],
+              "detailDescription": "Keep ESD workstations clean, effective, and compliant with our ESD Safe Mat & Tabletop Cleaner. Specially formulated for use on anti-static mats, work surfaces, and ESD-safe equipment, this cleaner removes dust, dirt, grease, fingerprints, and other contaminants without leaving insulating residues that can affect ESD performance.\n\nUnlike conventional cleaning solutions, the ESD-safe formula helps maintain the electrical properties of static-dissipative and conductive surfaces, ensuring consistent protection for sensitive electronic components. The non-corrosive, residue-free formulation is safe for regular use in electronics manufacturing, assembly areas, laboratories, cleanrooms, and repair facilities.\n\nEasy to apply and fast drying, it helps maintain a clean, professional, and ESD-protected workspace.\n\n**Key Features**\n\n* Designed specifically for ESD mats and work surfaces\n* Removes dust, grease, fingerprints, and contaminants effectively\n* Helps maintain the static-dissipative properties of ESD surfaces\n* Residue-free and fast-drying formula\n* Non-corrosive and safe for regular use\n* Easy spray-and-wipe application\n* Suitable for ESD-protected areas (EPA)\n\nMaintain the cleanliness and performance of your ESD-protected work environment with our ESD Safe Mat & Tabletop Cleaner, designed for reliable and effective workstation maintenance.\n"
             }
           ]
         },
         {
-          "id": "floor-tapes",
+          "id": "floor_marking_tapes",
           "label": "Floor Marking Tapes",
           "poster": "",
           "products": [
@@ -121,9 +124,9 @@
           "poster": "",
           "products": [
             {
-              "id": "p7",
+              "id": "esd_dotted_gloves",
               "name": "ESD Dotted Gloves",
-              "description": "ESD Dotted Gloves provide reliable static protection while offering enhanced grip for handling electronic components, PCBs, tools, and materials. Designed for comfort, durability, and precision, they are ideal for electronics manufacturing, assembly, inspection, and repair applications.",
+              "description": "Provides reliable static protection while offering enhanced grip for handling electronic components, PCBs, tools, and materials. Designed for comfort, durability, and precision, they are ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "specs": [
                 "Material: Nylon + PU",
                 "Sizes: S / M / L / XL",
@@ -134,12 +137,13 @@
               "images": [
                 "/images/anti-static-dotted-gloves.jpg",
                 "/images/anti-static-dotted-gloves-2.jpg"
-              ]
+              ],
+              "detailDescription": "Ensure safe handling of sensitive electronic components with our ESD Dotted Gloves. Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices and assemblies during manufacturing, testing, inspection, and repair processes.\n\nFeaturing anti-slip PVC dots on the palm and fingers, the gloves provide enhanced grip and control when handling PCBs, electronic components, tools, and packaging materials. The lightweight, breathable fabric offers comfort for extended wear while maintaining flexibility and dexterity for precision tasks.\n\nIdeal for electronics manufacturing, assembly lines, service centers, laboratories, and ESD-protected workstations, these gloves combine reliable static control with improved handling performance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Anti-slip PVC dots for enhanced grip and secure handling\n* Lightweight, breathable, and comfortable for all-day use\n* Flexible design for improved dexterity and precision\n* Reusable and durable construction\n* Suitable for ESD-safe work environments"
             },
             {
-              "id": "p8",
+              "id": "esd_antistatic_finger_cots",
               "name": "ESD Anti-Static Finger Cots",
-              "description": "ESD Anti-Static Finger Cots provide reliable protection against electrostatic discharge, fingerprints, moisture, and contaminants when handling sensitive electronic components. Ideal for precision assembly, inspection, testing, and repair applications in ESD-protected environments.",
+              "description": "Provides reliable protection against electrostatic discharge, fingerprints, moisture, and contaminants when handling sensitive electronic components. Ideal for precision assembly, inspection, testing, and repair applications in ESD-protected environments.",
               "specs": [
                 "Material: Nitrile",
                 "Sizes: S / M / L",
@@ -150,37 +154,41 @@
               "images": [
                 "/images/finger-cots.jpg",
                 "/images/finger-cots-2.jpg"
-              ]
+              ],
+              "detailDescription": "Protect sensitive electronic components from electrostatic discharge and contamination with our ESD Anti-Static Finger Cots. Designed for precision handling applications, these finger cots provide a safe barrier between the user and delicate components, helping prevent damage caused by static electricity, fingerprints, moisture, oils, and dust.\n\nMade from high-quality anti-static materials, they offer excellent flexibility, comfort, and finger sensitivity, allowing users to perform detailed assembly, inspection, testing, and repair tasks with confidence. Their snug fit ensures precise control when handling small electronic parts and devices.\n\nIdeal for electronics manufacturing, semiconductor production, laboratories, cleanrooms, and repair workstations, ESD Anti-Static Finger Cots are an essential solution for maintaining product quality and ESD protection.\n\n**Key Features**\n\n* Helps prevent electrostatic discharge (ESD) damage\n* Protects components from fingerprints, oils, moisture, and contaminants\n* Excellent finger sensitivity for precision handling\n* Comfortable, flexible, and easy to wear\n* Suitable for use in ESD-safe and clean environments\n* Available in multiple sizes for a secure fit\n\nMaintain product integrity and improve handling safety with our ESD Anti-Static Finger Cots, designed for reliable protection in ESD-sensitive environments.\n"
             },
             {
-              "id": "p8.2",
+              "id": "esd_palm_fit_pu_coated_gloves",
               "name": "ESD Palm Fit PU Coated gloves",
-              "description": "ESD Palm Fit PU Coated Gloves provide reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
+              "description": "Provides reliable static protection combined with enhanced grip and excellent dexterity. The PU-coated palm ensures secure handling of electronic components and PCBs, making these gloves ideal for electronics manufacturing, assembly, inspection, and repair applications.",
               "tag": null,
               "featured": false,
               "images": [
                 "/images/esd-palm-fit-pu-coated-gloves.jpg"
-              ]
+              ],
+              "detailDescription": "Protect sensitive electronic components while maintaining excellent grip and precision with our ESD Palm Fit PU Coated Gloves. Designed for electrostatic discharge (ESD) protection, these gloves help prevent static buildup that can damage electronic devices during assembly, inspection, testing, and repair operations.\n\nThe seamless knitted liner provides a comfortable and breathable fit, while the polyurethane (PU) coating on the palm enhances grip, abrasion resistance, and handling control. The lightweight design allows for superior finger sensitivity and dexterity, making these gloves ideal for tasks that require accuracy and precision.\n\nSuitable for electronics manufacturing, semiconductor facilities, assembly lines, laboratories, and ESD-protected workstations, these gloves offer the perfect combination of static control, comfort, and durability.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* PU-coated palm for enhanced grip and handling control\n* Excellent finger sensitivity and dexterity for precision work\n* Lightweight, breathable, and comfortable for extended use\n* Durable and abrasion-resistant construction\n* Reusable and suitable for ESD-safe environments"
             },
             {
-              "id": "p8.3",
+              "id": "esd_finger_top_fit_pu_coated_gloves",
               "name": "ESD finger top Fit PU Coated gloves",
-              "description": "ESD Finger Top Fit PU Coated Gloves provide reliable static protection with enhanced fingertip grip for precision handling of electronic components. Designed for comfort, dexterity, and control, they are ideal for electronics assembly, inspection, testing, and repair applications in ESD-protected environments",
+              "description": "Provides reliable static protection with enhanced fingertip grip for precision handling of electronic components. Designed for comfort, dexterity, and control, they are ideal for electronics assembly, inspection, testing, and repair applications in ESD-protected environments",
               "tag": null,
               "featured": false,
               "images": [
-                "/images/esd-finger-top-fit-pu-coated-gloves.jpg"
-              ]
+                "/images/esd-finger-top-fit-pu-coated-gloves.jpg",
+                "/images/esd-finger-top-fit-pu-coated-gloves.webp"
+              ],
+              "detailDescription": "Achieve superior precision and static protection with our ESD Finger Top Fit PU Coated Gloves. Designed for handling sensitive electronic components, these gloves help prevent electrostatic discharge (ESD) while providing enhanced fingertip grip and control for delicate assembly, inspection, and testing tasks.\n\nFeaturing a lightweight, breathable knitted liner with polyurethane (PU) coating on the fingertips, the gloves offer excellent tactile sensitivity and dexterity without compromising comfort. The fingertip coating improves grip on small components and tools, making them ideal for precision work where accuracy and component protection are critical.\n\nSuitable for electronics manufacturing, PCB assembly, semiconductor production, laboratories, and ESD-protected workstations, these gloves combine reliable static control with exceptional handling performance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* PU-coated fingertips for improved grip and precision handling\n* Excellent finger sensitivity and tactile control\n* Lightweight, breathable, and comfortable for extended wear\n* Flexible design for enhanced dexterity\n* Durable and reusable construction\n* Suitable for ESD-safe environments\n\nImprove handling accuracy and protect sensitive electronics with our ESD Finger Top Fit PU Coated Gloves, engineered for precision work in static-controlled environments.\n"
             }
           ]
         },
         {
-          "id": "esd-footwear",
+          "id": "esd_footwear",
           "label": "ESD Footwear",
           "poster": "",
           "products": [
             {
-              "id": "p9",
+              "id": "esd_safety_shoes",
               "name": "ESD Safety Shoes",
               "description": "Steel-toe ESD safety shoes meeting EN ISO 20345 S1P standards. Anti-static sole grounding the wearer through certified pathways.",
               "specs": [
@@ -196,33 +204,47 @@
               ]
             },
             {
-              "id": "p10",
+              "id": "esd_slippers",
               "name": "ESD Slippers",
-              "description": "Lightweight ESD cleanroom slippers for operators use. Easy-slip design for rapid changeover at entry points.",
+              "description": "Provides reliable static control while ensuring comfort and safety during extended use. Made from high-quality ESD-safe materials, they help dissipate static charges and are ideal for maintaining ESD protection in electronics manufacturing, cleanrooms, laboratories, and other controlled environments.",
               "specs": [
                 "Material: PVC",
                 "Sole Res: <10⁹ Ω",
-                "Sizes: Universal"
+                "Size: Universal"
               ],
               "tag": null,
               "featured": false,
               "images": [
                 "/images/p10-1.jpg"
-              ]
+              ],
+              "detailDescription": "Protect personnel and sensitive electronic components with our ESD Slippers, designed to provide reliable electrostatic discharge (ESD) protection in static-sensitive environments. These slippers safely dissipate static charges generated by the wearer, helping reduce the risk of ESD-related damage while supporting a safe and compliant workplace.\n\nCrafted from high-quality ESD-safe materials, the slippers are lightweight, durable, and comfortable for extended use. Their ergonomic design and anti-slip sole provide excellent stability and walking comfort, making them suitable for daily use in manufacturing facilities, cleanrooms, laboratories, and ESD-protected work areas.\n\nCombining comfort, durability, and dependable static control, ESD Slippers are an essential part of any effective ESD protection program.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Helps safely dissipate static charges from the wearer\n* Lightweight and comfortable for prolonged use\n* Durable construction for long service life\n* Anti-slip sole for improved workplace safety\n* Easy to clean and maintain\n* Suitable for ESD-protected and controlled environments\n\nMaintain a safe, comfortable, and static-controlled workplace with our ESD Slippers, designed to deliver dependable ESD protection for everyday operations."
             },
             {
-              "id": "p10.1",
+              "id": "esd_cleanroom_shoe",
               "name": "ESD cleanroom shoe",
               "description": "ESD Cleanroom Shoes provide effective static control while helping maintain cleanliness in controlled environments. Designed for comfort, durability, and safety, they are ideal for electronics manufacturing, semiconductor facilities, laboratories, pharmaceutical production, and cleanroom applications.",
               "tag": null,
-              "featured": false
+              "featured": false,
+              "detailDescription": "Ensure reliable static control and contamination protection with our ESD Cleanroom Shoes. Designed for use in cleanrooms and ESD-sensitive environments, these shoes help safely dissipate static charges while supporting cleanliness and workplace safety.\n\nManufactured from durable, easy-to-clean materials, ESD Cleanroom Shoes provide excellent comfort for extended wear and are suitable for personnel working in electronics manufacturing, semiconductor facilities, pharmaceutical plants, laboratories, and controlled environments. Their ergonomic design and non-slip sole help improve stability and comfort during daily operations.\n\nCombining ESD protection with cleanroom compatibility, these shoes are an essential part of a comprehensive contamination and static control program.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Designed for cleanroom and controlled environments\n* Helps minimize particle generation and contamination\n* Comfortable and lightweight for extended wear\n* Durable, easy-to-clean construction\n* Non-slip sole for enhanced workplace safety\n* Suitable for ESD-protected areas (EPA)"
             },
             {
-              "id": "p10.2",
+              "id": "manual_shoe_cover_dispenser",
               "name": "Manual Shoe cover dispenser",
               "description": "The Manual Shoe Cover Dispenser provides a fast, convenient, and hygienic way to apply disposable shoe covers. Requiring no electricity, it helps maintain cleanliness and contamination control in cleanrooms, laboratories, healthcare facilities, manufacturing plants, and other controlled environments.",
               "tag": null,
-              "featured": false
+              "featured": false,
+              "detailDescription": "Maintain cleanliness and hygiene in controlled environments with our Manual Shoe Cover Dispenser. Designed for quick and convenient shoe cover application, this dispenser helps reduce direct contact with shoe covers while improving efficiency and cleanliness in workplaces where contamination control is essential.\n\nEasy to operate and requiring no electricity, the dispenser allows users to apply disposable shoe covers in seconds simply by stepping into the unit. Its durable construction ensures reliable performance in high-traffic environments, making it an ideal solution for cleanrooms, laboratories, healthcare facilities, manufacturing plants, offices, and visitor areas.\n\nCompact, portable, and user-friendly, the Manual Shoe Cover Dispenser helps support workplace hygiene while minimizing the spread of dirt, dust, and contaminants.\n\n**Key Features**\n\n* Quick and easy shoe cover application\n* No electricity or batteries required\n* Reduces direct hand contact with shoe covers\n* Durable and sturdy construction\n* Easy to load and maintain\n* Compact and portable design\n* Suitable for high-traffic areas",
+              "attachment": "",
+              "images": [
+                "/images/shoe-cover-dispenser.jpeg"
+              ]
+            },
+            {
+              "featured": false,
+              "name": "ESD Shoe Cover",
+              "description": "Provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas.",
+              "id": "esd_shoe_cover",
+              "detailDescription": "Protect sensitive environments from static discharge and contamination with our ESD Shoe Covers. Designed for use in ESD-protected areas, these shoe covers help prevent the buildup of static electricity while minimizing the introduction of dust, dirt, and other contaminants into controlled workspaces.\n\nMade from high-quality ESD-safe materials, they provide reliable static control and comfortable wear without compromising mobility. Lightweight and easy to use, ESD Shoe Covers are an ideal solution for personnel working in electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other static-sensitive environments.\n\nWhether used by employees, visitors, or maintenance personnel, these shoe covers help support workplace cleanliness, product quality, and ESD compliance.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* Helps reduce contamination from footwear\n* Lightweight and comfortable for extended use\n* Easy to wear and dispose of\n* Suitable for ESD-protected and controlled environments\n* Durable construction for reliable performance\n* Supports workplace cleanliness and ESD control programs."
             }
           ]
         },
@@ -232,7 +254,7 @@
           "poster": "",
           "products": [
             {
-              "id": "p11",
+              "id": "esd_apron",
               "name": "ESD Apron",
               "description": "Grid-knit polyester ESD lab coat with conductive carbon filament grid. Compliant with IEC 61340-5-1.",
               "specs": [
@@ -248,9 +270,9 @@
               ]
             },
             {
-              "id": "p12",
-              "name": "ESD Cover All",
-              "description": "Adjustable fabric wrist strap with coil cord for continuous operator grounding at seated workstations.",
+              "id": "esd_coverall",
+              "name": "ESD Coverall",
+              "description": "Provides complete body protection against electrostatic discharge while helping minimize particle contamination in controlled environments. Made from high-quality ESD-safe fabric, they offer lightweight comfort, durability, and reliable static control for electronics manufacturing, cleanrooms, laboratories, and other ESD-protected workplaces.",
               "specs": [
                 "Cord Length: 1.8m",
                 "Resistance: 1MΩ",
@@ -261,19 +283,13 @@
               "images": [
                 "/images/p12-1.jpg",
                 "/images/p12-2.jpg"
-              ]
+              ],
+              "detailDescription": "Ensure complete body protection and effective static control with our ESD Coverall. Designed for ESD-sensitive and controlled environments, this one-piece garment helps prevent the buildup of static electricity while minimizing particle contamination, making it ideal for handling sensitive electronic components and equipment.\n\nManufactured from high-quality ESD-safe fabric with conductive fibers, the coverall provides reliable electrostatic discharge (ESD) protection without compromising comfort. Its lightweight, breathable design allows for extended wear, while the ergonomic fit ensures ease of movement during assembly, inspection, testing, and production activities.\n\nDesigned for durability and repeated use, the ESD Coverall is an essential part of a comprehensive ESD control program, helping maintain product quality, workplace safety, and compliance in static-controlled environments.\n\n**Key Features**\n\n* Effective protection against electrostatic discharge (ESD)\n* High-quality ESD-safe fabric with conductive fibers\n* Full-body coverage to help minimize contamination\n* Lightweight, breathable, and comfortable for extended wear\n* Durable and reusable construction\n* Ergonomic fit for improved mobility and flexibility\n* Suitable for ESD-protected and controlled environments\n* Easy to clean and maintain\n\nMaintain a clean, safe, and static-controlled workplace with our ESD Coverall, engineered to deliver dependable ESD protection and all-day comfort."
             },
             {
-              "id": "p12.1",
+              "id": "esd_Cap&bouffant_cap",
               "name": "ESD Cap & Bouffant Cap",
               "description": "na",
-              "tag": null,
-              "featured": false
-            },
-            {
-              "id": "p12.2",
-              "name": "ESD Shoe Cover",
-              "description": "ESD Shoe Covers provide effective static control and contamination protection for ESD-sensitive and controlled environments. Lightweight, comfortable, and easy to use, they are ideal for electronics manufacturing, cleanrooms, laboratories, semiconductor facilities, and other ESD-protected areas.",
               "tag": null,
               "featured": false
             }
