@@ -52,7 +52,7 @@ function SubcategoryCard({ sub, onClick }) {
   );
 }
 
-function ProductCard({ product }) {
+export function ProductCard({ product }) {
   return (
     <div className="group flex flex-col rounded-lg border border-gray-200 bg-gray-50 hover:border-[#1E88FF]/30 hover:bg-[#1E88FF]/[0.03] transition-all duration-300 overflow-hidden">
       <ImageCarousel images={product.images ?? []} alt={product.name} />
@@ -165,7 +165,7 @@ export default function Products() {
           >
             Protecting Electronics with Reliable ESD & Cleanroom Solutions
           </h2>
-          <p className="text-gray-400 text-[15px] lg:text-[17px] mt-3 leading-relaxed">
+          <p className="text-gray-600 text-[15px] lg:text-[17px] mt-3 leading-relaxed">
             Browse our range of ESD control and cleanroom products, and contact us for pricing and availability.
           </p>
         </div>
@@ -208,13 +208,24 @@ export default function Products() {
             {showSubcategoryPicker ? (
               /* ── Subcategory poster cards ── */
               <div>
-                <div className="mb-6">
-                  <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[22px] leading-snug">
-                    {activeCat.label}
-                  </h3>
-                  <p className="text-gray-400 text-[14px] lg:text-[16px] mt-1">
-                    Select a sub-category to browse products
-                  </p>
+                <div className="flex items-start justify-between gap-4 mb-6">
+                  <div>
+                    <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[22px] leading-snug">
+                      {activeCat.label}
+                    </h3>
+                    <p className="text-gray-400 text-[14px] lg:text-[16px] mt-1">
+                      Select a sub-category to browse products
+                    </p>
+                  </div>
+                  <Link
+                    to="/products"
+                    className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
+                  >
+                    View all products
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
+                    </svg>
+                  </Link>
                 </div>
                 <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
                   {activeCat.subcategories.map((sub) => (
@@ -289,13 +300,24 @@ export default function Products() {
                 )}
 
                 {/* Active label + count */}
-                <div className="mb-6">
-                  <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[20px] leading-snug">
-                    {activeSub?.label ?? activeCat?.label}
-                  </h3>
-                  <p className="text-gray-400 text-[13px] lg:text-[15px] mt-1 font-medium">
-                    {displayedProducts.length} product{displayedProducts.length !== 1 ? "s" : ""} available
-                  </p>
+                <div className="flex items-start justify-between gap-4 mb-6">
+                  <div>
+                    <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[20px] leading-snug">
+                      {activeSub?.label ?? activeCat?.label}
+                    </h3>
+                    <p className="text-gray-400 text-[13px] lg:text-[15px] mt-1 font-medium">
+                      {displayedProducts.length} product{displayedProducts.length !== 1 ? "s" : ""} available
+                    </p>
+                  </div>
+                  <Link
+                    to="/products"
+                    className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
+                  >
+                    View all products
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
+                    </svg>
+                  </Link>
                 </div>
 
                 {/* Product grid */}

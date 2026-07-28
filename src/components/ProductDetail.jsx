@@ -2,21 +2,9 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import data from "../data/products.json";
 import EnquireButton from "./EnquireButton";
+import { getAllProducts } from "../utils/products";
 
 const { categories } = data;
-
-function getAllProducts() {
-  const all = [];
-  for (const cat of categories) {
-    if (cat.subcategories?.length > 0) {
-      for (const sub of cat.subcategories) {
-        if (sub.products?.length > 0) all.push(...sub.products);
-      }
-    }
-    if (cat.products?.length > 0) all.push(...cat.products);
-  }
-  return all;
-}
 
 function renderInlineMarkdown(text) {
   return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>

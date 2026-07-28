@@ -6,6 +6,7 @@ import Products from "./components/Products";
 import ContactForm from "./components/ContactForm";
 import FeaturedProducts from "./components/FeaturedProducts";
 import ProductDetail from "./components/ProductDetail";
+import AllProducts from "./components/AllProducts";
 
 export default function App() {
   return (
@@ -29,6 +30,14 @@ export default function App() {
         element={
           <Layout>
             <ProductDetail />
+          </Layout>
+        }
+      />
+      <Route
+        path="/products"
+        element={
+          <Layout>
+            <AllProducts />
           </Layout>
         }
       />

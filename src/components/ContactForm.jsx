@@ -129,7 +129,7 @@ export default function ContactForm() {
             >
               Let's get your workspace protected.
             </h2>
-            <p className="text-gray-500 text-[15px] lg:text-[17px] leading-[1.8] font-light mb-10 max-w-sm">
+            <p className="text-gray-600 text-[15px] lg:text-[17px] leading-[1.8] font-light mb-10 max-w-sm">
               Tell us what you need and we'll get back to you on WhatsApp right away — whether
               it's a single item or a bulk order, we're here to help.
             </p>
