@@ -116,7 +116,7 @@ export default function FeaturedProducts() {
                 <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[17px] leading-snug mb-3">
                   {product.name}
                 </h3>
-                <p className="text-gray-500 text-[13px] leading-[1.75] mb-5 line-clamp-4">
+                <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5 line-clamp-4">
                   {product.description}
                 </p>
 

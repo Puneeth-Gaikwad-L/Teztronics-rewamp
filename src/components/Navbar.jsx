@@ -134,7 +134,7 @@ export default function Navbar() {
                   href={`#${l.hash}`}
                   onClick={(e) => handleNavClick(e, l.hash)}
                   className={`text-[13px] font-medium tracking-wide transition-colors duration-200 ${
-                    isActive ? "text-[#1E88FF] font-semibold" : "text-gray-500 hover:text-[#003B8E]"
+                    isActive ? "text-[#1E88FF] font-semibold" : "text-black hover:text-black"
                   }`}
                 >
                   {l.label}
@@ -193,10 +193,10 @@ export default function Navbar() {
                     </div>
                     {/* Text */}
                     <div className="min-w-0">
-                      <p className="text-[13px] font-semibold text-gray-800 group-hover:text-[#003B8E] truncate">
+                      <p className="text-[13px] lg:text-[15px] font-semibold text-gray-800 group-hover:text-[#003B8E] truncate">
                         {product.name}
                       </p>
-                      <p className="text-[11px] text-gray-400 truncate">
+                      <p className="text-[11px] lg:text-[13px] text-gray-400 truncate">
                         {product.subcategoryLabel ?? product.categoryLabel}
                       </p>
                     </div>
@@ -211,7 +211,7 @@ export default function Navbar() {
             {/* No results */}
             {query.trim() && results.length === 0 && (
               <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-xl border border-gray-200 shadow-2xl px-4 py-5 text-center z-50">
-                <p className="text-[13px] text-gray-400">No products found for <span className="font-semibold text-gray-600">"{query}"</span></p>
+                <p className="text-[13px] lg:text-[15px] text-gray-400">No products found for <span className="font-semibold text-gray-600">"{query}"</span></p>
               </div>
             )}
           </div>
@@ -252,7 +252,7 @@ export default function Navbar() {
                   href={`#${l.hash}`}
                   onClick={(e) => handleNavClick(e, l.hash)}
                   className={`block text-[15px] font-medium transition-colors ${
-                    isActive ? "text-[#1E88FF]" : "text-[#060912]/60 hover:text-[#060912]"
+                    isActive ? "text-[#1E88FF]" : "text-black hover:text-black"
                   }`}
                 >
                   {l.label}

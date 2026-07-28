@@ -502,6 +502,10 @@
   ],
   "contact": {
     "city": "Bengaluru",
-    "address": "Teztronics Electronics Accessories Wholesaler"
+    "address": "Teztronics Electronics Accessories Wholesaler",
+    "mapUrl": "https://maps.app.goo.gl/zUKGUSMV6X9Youb76",
+    "lat": 13.0614116,
+    "lng": 77.5551727,
+    "placeCid": "13192760846905381776"
   }
 }

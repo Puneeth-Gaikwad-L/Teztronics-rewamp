@@ -272,7 +272,7 @@ export default function Hero() {
             Engineered.
           </h1>
 
-          <p className="text-gray-600 text-[16px] leading-[1.75] font-light max-w-[440px] mb-10">
+          <p className="text-gray-600 text-[16px] lg:text-[18px] leading-[1.75] font-light max-w-[440px] mb-10">
             We supply ESD control and cleanroom products to electronics manufacturers,
             assembly units, and research labs across India. From a single wrist strap
             to a full facility setup — talk to us and we'll sort it out.
@@ -346,11 +346,11 @@ export default function Hero() {
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[19px] leading-snug mb-2">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[19px] lg:text-[21px] leading-snug mb-2">
                 Quality-Assured Products
               </p>
 
-              <p className="text-gray-500 text-[13px] leading-relaxed">
+              <p className="text-gray-500 text-[13px] lg:text-[15px] leading-relaxed">
                 Carefully selected ESD and cleanroom products designed to support safe, reliable, and controlled workspaces.
               </p>
             </div>
@@ -381,11 +381,11 @@ export default function Hero() {
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] leading-snug mb-2">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] lg:text-[17px] leading-snug mb-2">
                 Complete Product Range
               </p>
 
-              <p className="text-gray-500 text-[12.5px] leading-relaxed">
+              <p className="text-gray-500 text-[12.5px] lg:text-[14.5px] leading-relaxed">
                 From ESD essentials to cleanroom consumables — everything your facility needs in one place.
               </p>
             </div>
@@ -407,11 +407,11 @@ export default function Hero() {
                 </svg>
               </div>
 
-              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] leading-snug mb-2">
+              <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] lg:text-[17px] leading-snug mb-2">
                 Fast Support & Supply
               </p>
 
-              <p className="text-gray-500 text-[12.5px] leading-relaxed">
+              <p className="text-gray-500 text-[12.5px] lg:text-[14.5px] leading-relaxed">
                 Quick guidance, easy ordering, and reliable delivery across India.
               </p>
             </div>

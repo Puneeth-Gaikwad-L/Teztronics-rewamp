@@ -87,7 +87,7 @@ export default function ProductDetail() {
   if (!result) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center gap-4 pt-[70px]">
-        <p className="text-gray-400 text-[15px]">Product not found.</p>
+        <p className="text-gray-400 text-[15px] lg:text-[17px]">Product not found.</p>
         <button
           onClick={() => navigate("/")}
           className="text-[#1E88FF] text-[13px] font-semibold hover:underline"
@@ -130,10 +130,11 @@ export default function ProductDetail() {
           </span>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
 
           {/* Left — image gallery */}
           <div>
+          <div className="md:sticky md:top-[90px]">
             <div
               className="relative w-full rounded-2xl overflow-hidden bg-gray-50 border border-gray-100"
               style={{ aspectRatio: "4 / 3" }}
@@ -217,9 +218,10 @@ export default function ProductDetail() {
               </div>
             )}
           </div>
+          </div>
 
           {/* Right — product details */}
-          <div className="sticky top-[90px]">
+          <div>
             {product.tag && (
               <span className="inline-block mb-4 text-[10px] font-bold uppercase tracking-[0.15em] text-[#1E88FF] border border-[#1E88FF]/30 rounded-full px-3 py-1">
                 {product.tag}
@@ -233,7 +235,7 @@ export default function ProductDetail() {
               {product.name}
             </h1>
 
-            <div className="text-gray-500 text-[15px] leading-[1.8] font-light mb-8">
+            <div className="text-gray-500 text-[15px] lg:text-[17px] leading-[1.8] font-light mb-8">
               {(() => {
                 const detail = product.detailDescription && product.detailDescription !== "na" ? product.detailDescription : null;
                 const card = product.description && product.description !== "na" ? product.description : null;
@@ -243,7 +245,7 @@ export default function ProductDetail() {
 
             {product.specs?.length > 0 && (
               <div className="mb-8 p-5 rounded-xl bg-gray-50 border border-gray-100">
-                <p className="text-[10px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
+                <p className="text-[10px] lg:text-[12px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
                   Specifications
                 </p>
                 <ul className="space-y-3">
@@ -270,10 +272,10 @@ export default function ProductDetail() {
                   </svg>
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[13px]">
+                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[13px] lg:text-[15px]">
                     Product Datasheet
                   </p>
-                  <p className="text-gray-400 text-[12px]">View or download PDF</p>
+                  <p className="text-gray-400 text-[12px] lg:text-[14px]">View or download PDF</p>
                 </div>
                 <svg className="w-4 h-4 text-gray-300 group-hover:text-[#1E88FF] transition-colors shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
@@ -344,7 +346,7 @@ export default function ProductDetail() {
 
                     {/* Name */}
                     <div className="p-3">
-                      <p className="font-['Plus_Jakarta_Sans'] font-semibold text-[#003B8E] text-[12px] leading-snug line-clamp-2 group-hover:text-[#1E88FF] transition-colors duration-200">
+                      <p className="font-['Plus_Jakarta_Sans'] font-semibold text-[#003B8E] text-[12px] lg:text-[14px] leading-snug line-clamp-2 group-hover:text-[#1E88FF] transition-colors duration-200">
                         {p.name}
                       </p>
                     </div>

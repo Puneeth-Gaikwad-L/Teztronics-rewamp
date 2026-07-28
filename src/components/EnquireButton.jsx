@@ -1,5 +1,6 @@
 import { useState } from "react";
 import data from "../data/products.json";
+import useLockBodyScroll from "../hooks/useLockBodyScroll";
 
 const WHATSAPP_NUMBER = data.whatsappNumber.replace(/\D/g, "");
 const EMAIL_ADDRESS = "teztronics.in@gmail.com";
@@ -10,6 +11,7 @@ function buildMessage(productName) {
 
 export default function EnquireButton({ productName, className, children = "Enquire" }) {
   const [showModal, setShowModal] = useState(false);
+  useLockBodyScroll(showModal);
 
   const handleWhatsApp = () => {
     const text = buildMessage(productName);
@@ -43,10 +45,10 @@ export default function EnquireButton({ productName, className, children = "Enqu
               </svg>
             </button>
 
-            <p className="font-['Plus_Jakarta_Sans'] font-extrabold text-[#003B8E] text-[18px] mb-1">
+            <p className="font-['Plus_Jakarta_Sans'] font-extrabold text-[#003B8E] text-[18px] lg:text-[20px] mb-1">
               How would you like to reach us?
             </p>
-            <p className="text-gray-400 text-[13px] mb-6">Choose your preferred channel to send the enquiry.</p>
+            <p className="text-gray-400 text-[13px] lg:text-[15px] mb-6">Choose your preferred channel to send the enquiry.</p>
 
             <div className="flex flex-col gap-3">
               <button
@@ -60,8 +62,8 @@ export default function EnquireButton({ productName, className, children = "Enqu
                   </svg>
                 </div>
                 <div>
-                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px]">WhatsApp</p>
-                  <p className="text-gray-400 text-[11px]">Opens WhatsApp with your enquiry pre-filled</p>
+                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px] lg:text-[15px]">WhatsApp</p>
+                  <p className="text-gray-400 text-[11px] lg:text-[13px]">Opens WhatsApp with your enquiry pre-filled</p>
                 </div>
               </button>
 
@@ -75,8 +77,8 @@ export default function EnquireButton({ productName, className, children = "Enqu
                   </svg>
                 </div>
                 <div>
-                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px]">Email</p>
-                  <p className="text-gray-400 text-[11px]">Opens your email client with the enquiry pre-filled</p>
+                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px] lg:text-[15px]">Email</p>
+                  <p className="text-gray-400 text-[11px] lg:text-[13px]">Opens your email client with the enquiry pre-filled</p>
                 </div>
               </button>
             </div>

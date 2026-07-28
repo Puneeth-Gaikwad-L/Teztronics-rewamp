@@ -69,7 +69,7 @@ function ProductCard({ product }) {
           {product.name}
         </h3>
 
-        <p className="text-gray-500 text-[13px] leading-[1.75] mb-5 line-clamp-4">
+        <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5 line-clamp-4">
           {product.description}
         </p>
 
@@ -165,7 +165,7 @@ export default function Products() {
           >
             Protecting Electronics with Reliable ESD & Cleanroom Solutions
           </h2>
-          <p className="text-gray-400 text-[15px] mt-3 leading-relaxed">
+          <p className="text-gray-400 text-[15px] lg:text-[17px] mt-3 leading-relaxed">
             Browse our range of ESD control and cleanroom products, and contact us for pricing and availability.
           </p>
         </div>
@@ -173,7 +173,7 @@ export default function Products() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* ── Category sidebar ── */}
           <aside className="lg:w-[260px] shrink-0">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-bold mb-3 px-1">
+            <p className="text-[11px] lg:text-[13px] uppercase tracking-[0.18em] text-gray-400 font-bold mb-3 px-1">
               Categories
             </p>
             <ul className="space-y-1.5">
@@ -212,7 +212,7 @@ export default function Products() {
                   <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[22px] leading-snug">
                     {activeCat.label}
                   </h3>
-                  <p className="text-gray-400 text-[14px] mt-1">
+                  <p className="text-gray-400 text-[14px] lg:text-[16px] mt-1">
                     Select a sub-category to browse products
                   </p>
                 </div>
@@ -293,7 +293,7 @@ export default function Products() {
                   <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[20px] leading-snug">
                     {activeSub?.label ?? activeCat?.label}
                   </h3>
-                  <p className="text-gray-400 text-[13px] mt-1 font-medium">
+                  <p className="text-gray-400 text-[13px] lg:text-[15px] mt-1 font-medium">
                     {displayedProducts.length} product{displayedProducts.length !== 1 ? "s" : ""} available
                   </p>
                 </div>
@@ -305,7 +305,7 @@ export default function Products() {
                       <ProductCard key={product.id} product={product} />
                     ))
                   ) : (
-                    <p className="text-gray-400 text-[15px] col-span-full py-10">
+                    <p className="text-gray-400 text-[15px] lg:text-[17px] col-span-full py-10">
                       Products coming soon.
                     </p>
                   )}

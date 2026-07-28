@@ -59,10 +59,10 @@ export default function About() {
               style={{ fontSize: "clamp(34px, 4vw, 52px)" }}>
               India’s trusted source for ESD & cleanroom protection.
             </h2>
-            <p className="text-gray-600 text-[15px] leading-[1.8] mb-5 font-light">
+            <p className="text-gray-600 text-[15px] lg:text-[17px] leading-[1.8] mb-5 font-light">
               Teztronics is a trusted supplier of ESD control and cleanroom products for factories, labs, workshops, and research facilities across India. From workstation essentials to cleanroom consumables, we help you source reliable products for safer, cleaner, and more controlled workspaces.F
             </p>
-            <p className="text-gray-600 text-[15px] leading-[1.8] font-light">
+            <p className="text-gray-600 text-[15px] lg:text-[17px] leading-[1.8] font-light">
               Based in Bengaluru, we supply ESD control and cleanroom products across India, including grounding mats, wrist straps, gloves, shoe covers, cleaning solutions, and cleanroom apparel.
             </p>
 
@@ -73,7 +73,7 @@ export default function About() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
-                <p className="text-gray-500 text-[13px] leading-relaxed">
+                <p className="text-gray-500 text-[13px] lg:text-[15px] leading-relaxed">
                   4TH BLOCK, P.O, 2nd Cross Rd, near Rajarajeshwari School Road,<br/>
                   Munikalappa Layout, Doddabommasandra,<br/>
                   Vidyaranyapura, Bengaluru, Karnataka 560097
@@ -109,7 +109,7 @@ export default function About() {
                   {p.icon}
                 </div>
                 <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] mb-2">{p.title}</h3>
-                <p className="text-gray-400 text-[13px] leading-[1.7]">{p.body}</p>
+                <p className="text-gray-400 text-[13px] lg:text-[15px] leading-[1.7]">{p.body}</p>
               </div>
             ))}
           </div>

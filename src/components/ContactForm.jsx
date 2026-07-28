@@ -1,8 +1,8 @@
 import { useState } from "react";
 import data from "../data/products.json";
+import useLockBodyScroll from "../hooks/useLockBodyScroll";
 const WHATSAPP_NUMBER = data.whatsappNumber.replace(/\D/g, "");
-const {city, address} = data.contact;
-const encodedAddress = encodeURIComponent(address);
+const { city, mapUrl, placeCid } = data.contact;
 
 const FIELDS = [
   { id: "org",         label: "Name / Organisation",       placeholder: "Your name or company name",    required: true,  type: "text" },
@@ -47,6 +47,7 @@ export default function ContactForm() {
   const [form, setForm] = useState({ org: "", email: "", location: "", phone: "", altPhone: "", product: "", quantity: "", description: "" });
   const [errors, setErrors] = useState({});
   const [showModal, setShowModal] = useState(false);
+  useLockBodyScroll(showModal);
 
   const handleChange = (e) => {
     const field = FIELDS.find((f) => f.id === e.target.id);
@@ -112,9 +113,10 @@ export default function ContactForm() {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-16">
           {/* Left — copy + contact pills + map */}
           <div>
+          <div className="md:sticky md:top-24">
             <div className="flex items-center gap-4 mb-6">
               <span className="w-8 h-px bg-[#1E88FF]" />
               <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#1E88FF]">
@@ -127,7 +129,7 @@ export default function ContactForm() {
             >
               Let's get your workspace protected.
             </h2>
-            <p className="text-gray-500 text-[15px] leading-[1.8] font-light mb-10 max-w-sm">
+            <p className="text-gray-500 text-[15px] lg:text-[17px] leading-[1.8] font-light mb-10 max-w-sm">
               Tell us what you need and we'll get back to you on WhatsApp right away — whether
               it's a single item or a bulk order, we're here to help.
             </p>
@@ -204,7 +206,7 @@ export default function ContactForm() {
                     Visit Us — {city}
                   </span>
                   <a
-                    href={`https://maps.google.com/?q=${encodedAddress}`}
+                    href={mapUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ml-auto text-[11px] font-semibold text-[#1E88FF]/60 hover:text-[#1E88FF] transition-colors uppercase tracking-[0.1em]"
@@ -220,15 +222,16 @@ export default function ContactForm() {
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
-                  src={`https://maps.google.com/maps?q=${encodedAddress}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                  src={`https://maps.google.com/maps?cid=${placeCid}&t=&z=16&ie=UTF8&iwloc=&output=embed`}
                 />
               </div>
             </div>
           </div>
+          </div>
 
           {/* Right — form */}
           <div className="sticky top-24 rounded-xl border border-gray-200 bg-gray-50 p-8">
-            <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] mb-6">
+            <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[15px] lg:text-[17px] mb-6">
               Send an enquiry
             </p>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -272,7 +275,7 @@ export default function ContactForm() {
                     />
                   )}
                   {errors[f.id] && (
-                    <p className="mt-1 text-[11px] text-red-500">{errors[f.id]}</p>
+                    <p className="mt-1 text-[11px] lg:text-[13px] text-red-500">{errors[f.id]}</p>
                   )}
                 </div>
               ))}
@@ -287,7 +290,7 @@ export default function ContactForm() {
                 Enquire
               </button>
 
-              <p className="text-center text-[11px] text-gray-300 mt-2">
+              <p className="text-center text-[11px] lg:text-[13px] text-gray-300 mt-2">
                 Submitting opens your email client with your enquiry pre-filled.
               </p>
             </form>
@@ -310,10 +313,10 @@ export default function ContactForm() {
               </svg>
             </button>
 
-            <p className="font-['Plus_Jakarta_Sans'] font-extrabold text-[#003B8E] text-[18px] mb-1">
+            <p className="font-['Plus_Jakarta_Sans'] font-extrabold text-[#003B8E] text-[18px] lg:text-[20px] mb-1">
               How would you like to reach us?
             </p>
-            <p className="text-gray-400 text-[13px] mb-6">Choose your preferred channel to send the enquiry.</p>
+            <p className="text-gray-400 text-[13px] lg:text-[15px] mb-6">Choose your preferred channel to send the enquiry.</p>
 
             <div className="flex flex-col gap-3">
               <button
@@ -327,8 +330,8 @@ export default function ContactForm() {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px]">WhatsApp</p>
-                  <p className="text-gray-400 text-[11px]">Opens WhatsApp with your enquiry pre-filled</p>
+                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px] lg:text-[15px]">WhatsApp</p>
+                  <p className="text-gray-400 text-[11px] lg:text-[13px]">Opens WhatsApp with your enquiry pre-filled</p>
                 </div>
               </button>
 
@@ -342,8 +345,8 @@ export default function ContactForm() {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px]">Email</p>
-                  <p className="text-gray-400 text-[11px]">Opens your email client with the enquiry pre-filled</p>
+                  <p className="font-['Plus_Jakarta_Sans'] font-bold text-[#060912] text-[13px] lg:text-[15px]">Email</p>
+                  <p className="text-gray-400 text-[11px] lg:text-[13px]">Opens your email client with the enquiry pre-filled</p>
                 </div>
               </button>
             </div>

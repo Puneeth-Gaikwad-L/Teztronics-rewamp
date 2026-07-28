@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="mb-4">
               <img src="/logo.png" alt="Teztronics" className="h-12 w-auto object-contain" />
             </div>
-            <p className="text-gray-400 text-[13px] leading-[1.8] max-w-xs">
+            <p className="text-gray-400 text-[13px] lg:text-[15px] leading-[1.8] max-w-xs">
               Your trusted source for ESD and cleanroom protection — serving factories, labs,
               and workshops across India. Quality products, honest advice, fast delivery.
             </p>
@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <p className="text-[10px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
+            <p className="text-[10px] lg:text-[12px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
               Quick Links
             </p>
             <ul className="space-y-2.5">
@@ -44,7 +44,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <p className="text-[10px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
+            <p className="text-[10px] lg:text-[12px] uppercase tracking-[0.18em] text-gray-300 font-semibold mb-4">
               Product Categories
             </p>
             <ul className="space-y-2.5">
@@ -64,10 +64,10 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-gray-300 text-[12px]">
+          <p className="text-gray-300 text-[12px] lg:text-[14px]">
             © {new Date().getFullYear()} Teztronics. All rights reserved.
           </p>
-          <p className="text-gray-200 text-[12px]">
+          <p className="text-gray-200 text-[12px] lg:text-[14px]">
             Doddabommasandra, Vidyaranyapura, Bengaluru — 560097
           </p>
         </div>
