@@ -70,6 +70,8 @@ collections:
                       - name: description
                         label: "Card Description (shown on product listing cards)"
                         widget: text
+                        hint: "Max 140 characters — shown in full on the product card"
+                        pattern: ['^.{1,140}$', "Must be 140 characters or fewer"]
                       - name: detailDescription
                         label: "Detail Page Description (shown on product detail page — falls back to Card Description if left blank)"
                         widget: text
@@ -123,6 +125,8 @@ collections:
                   - name: description
                     label: "Card Description (shown on product listing cards)"
                     widget: text
+                    hint: "Max 140 characters — shown in full on the product card"
+                    pattern: ['^.{1,140}$', "Must be 140 characters or fewer"]
                   - name: detailDescription
                     label: "Detail Page Description (shown on product detail page — falls back to Card Description if left blank)"
                     widget: text

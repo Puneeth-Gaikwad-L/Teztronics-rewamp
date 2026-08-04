@@ -4,6 +4,7 @@ import data from "../data/products.json";
 const { categories } = data;
 import ImageCarousel from "./ImageCarousel";
 import EnquireButton from "./EnquireButton";
+import { truncateText } from "../utils/products";
 
 const hasSubcategories = (cat) => cat?.subcategories?.length > 0;
 
@@ -69,8 +70,8 @@ export function ProductCard({ product }) {
           {product.name}
         </h3>
 
-        <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5 line-clamp-4">
-          {product.description}
+        <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5">
+          {truncateText(product.description)}
         </p>
 
         {product.specs?.length > 0 && (
@@ -98,7 +99,7 @@ export function ProductCard({ product }) {
             productName={product.name}
             className="inline-flex items-center justify-center w-full py-2.5 rounded-sm border border-gray-300 hover:border-[#1E88FF]/50 hover:bg-[#1E88FF]/10 text-[#060912]/60 hover:text-[#1E88FF] font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest transition-all duration-200"
           >
-            Enquire
+            Request Quote
           </EnquireButton>
         </div>
       </div>
@@ -148,8 +149,6 @@ export default function Products() {
 
   return (
     <section id="products" className="relative py-28 overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
-
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Section header */}
         <div className="flex items-center gap-4 mb-4">
@@ -165,7 +164,7 @@ export default function Products() {
           >
             Protecting Electronics with Reliable ESD & Cleanroom Solutions
           </h2>
-          <p className="text-gray-600 text-[15px] lg:text-[17px] mt-3 leading-relaxed">
+          <p className="text-black text-[15px] lg:text-[17px] mt-3 leading-relaxed">
             Browse our range of ESD control and cleanroom products, and contact us for pricing and availability.
           </p>
         </div>

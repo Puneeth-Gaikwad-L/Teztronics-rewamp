@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import data from "../data/products.json";
 const { categories } = data;
 import EnquireButton from "./EnquireButton";
+import { truncateText } from "../utils/products";
 
 const FEATURED = (() => {
   const all = [];
@@ -28,8 +29,6 @@ export default function FeaturedProducts() {
 
   return (
     <section className="relative py-28 overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
-
       {/* Subtle background glow */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -55,15 +54,6 @@ export default function FeaturedProducts() {
           >
             Our top selling products.
           </h2>
-          <a
-            href="#products"
-            className="inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors shrink-0"
-          >
-            View all products
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
-            </svg>
-          </a>
         </div>
 
         {/* Cards */}
@@ -116,8 +106,8 @@ export default function FeaturedProducts() {
                 <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[17px] leading-snug mb-3">
                   {product.name}
                 </h3>
-                <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5 line-clamp-4">
-                  {product.description}
+                <p className="text-gray-500 text-[13px] lg:text-[15px] leading-[1.75] mb-5">
+                  {truncateText(product.description)}
                 </p>
 
                 {/* Specs */}
@@ -147,7 +137,7 @@ export default function FeaturedProducts() {
                     productName={product.name}
                     className="inline-flex items-center justify-center w-full py-2.5 rounded-sm bg-[#1E88FF]/10 border border-[#1E88FF]/25 hover:bg-[#1E88FF]/20 hover:border-[#1E88FF]/50 text-[#1E88FF] font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest transition-all duration-200"
                   >
-                    Enquire
+                    Request Quote
                   </EnquireButton>
                 </div>
               </div>

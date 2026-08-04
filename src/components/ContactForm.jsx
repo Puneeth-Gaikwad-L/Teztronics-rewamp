@@ -101,8 +101,6 @@ export default function ContactForm() {
 
   return (
     <section id="contact" className="relative py-28">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
-
       {/* Background accent */}
       <div
         className="absolute inset-0 pointer-events-none"

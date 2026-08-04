@@ -121,7 +121,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 h-[70px] flex items-center justify-between gap-4">
         {/* Logo */}
         <a href="#hero" onClick={(e) => handleNavClick(e, "hero")} className="flex items-center shrink-0">
-          <img src="/logo.png" alt="Teztronics" className="h-10 w-auto object-contain" />
+          <img src="/logo.svg" alt="Teztronics" className="h-14 w-auto object-contain" />
         </a>
 
         {/* Desktop links */}
@@ -225,7 +225,7 @@ export default function Navbar() {
             <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H5l-4 4V5z" clipRule="evenodd"/>
             </svg>
-            Enquire Now
+            Request Quote
           </a>
 
           {/* Mobile burger */}
@@ -266,7 +266,7 @@ export default function Navbar() {
               onClick={(e) => handleNavClick(e, "contact")}
               className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 bg-[#1E88FF] text-white font-['Plus_Jakarta_Sans'] font-bold text-[12px] uppercase tracking-widest rounded-sm"
             >
-              Enquire Now
+              Request Quote
             </a>
           </li>
         </ul>

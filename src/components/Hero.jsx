@@ -272,7 +272,7 @@ export default function Hero() {
             Engineered.
           </h1>
 
-          <p className="text-gray-600 text-[16px] lg:text-[18px] leading-[1.75] font-light max-w-[440px] mb-10">
+          <p className="text-black text-[16px] lg:text-[18px] leading-[1.75] font-light max-w-[440px] mb-10">
             We supply ESD control and cleanroom products to electronics manufacturers,
             assembly units, and research labs across India. From a single wrist strap
             to a full facility setup — talk to us and we'll sort it out.

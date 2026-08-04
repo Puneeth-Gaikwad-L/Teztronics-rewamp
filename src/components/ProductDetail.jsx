@@ -276,15 +276,8 @@ export default function ProductDetail() {
                 productName={product.name}
                 className="inline-flex items-center justify-center w-full py-3.5 bg-[#1E88FF] hover:bg-[#3d9fff] text-white font-['Plus_Jakarta_Sans'] font-bold text-[13px] uppercase tracking-widest rounded-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(30,136,255,0.28)]"
               >
-                Enquire
+                Request a Quote
               </EnquireButton>
-
-              <button
-                onClick={handleGetQuote}
-                className="inline-flex items-center justify-center gap-2 w-full py-3 border border-gray-300 hover:border-[#1E88FF]/40 text-[#060912]/60 hover:text-[#1E88FF] font-['Plus_Jakarta_Sans'] font-semibold text-[13px] uppercase tracking-widest rounded-sm transition-all duration-200"
-              >
-                Get a Quote
-              </button>
             </div>
           </div>
         </div>
