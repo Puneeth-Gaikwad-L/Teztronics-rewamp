@@ -165,7 +165,8 @@ export default function Products() {
             Protecting Electronics with Reliable ESD & Cleanroom Solutions
           </h2>
           <p className="text-black text-[15px] lg:text-[17px] mt-3 leading-relaxed">
-            Browse our range of ESD control and cleanroom products, and contact us for pricing and availability.
+            Browse our range of ESD control and cleanroom products, and contact
+            us for pricing and availability.
           </p>
         </div>
 
@@ -186,13 +187,25 @@ export default function Products() {
                         : "border border-gray-200 text-gray-700 hover:text-[#003B8E] hover:bg-gray-50 hover:border-gray-300"
                     }`}
                   >
-                    <span className="text-[20px] leading-none shrink-0">{cat.icon}</span>
+                    <span className="text-[20px] leading-none shrink-0">
+                      {cat.icon}
+                    </span>
                     <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[15px] leading-snug flex-1">
                       {cat.label}
                     </span>
                     {activeCatId === cat.id && (
-                      <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      <svg
+                        className="w-4 h-4 shrink-0"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M9 5l7 7-7 7"
+                        />
                       </svg>
                     )}
                   </button>
@@ -203,137 +216,194 @@ export default function Products() {
 
           {/* ── Right panel ── */}
           <div className="flex-1 min-w-0">
-
-            {showSubcategoryPicker ? (
-              /* ── Subcategory poster cards ── */
-              <div>
-                <div className="flex items-start justify-between gap-4 mb-6">
-                  <div>
-                    <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[22px] leading-snug">
-                      {activeCat.label}
-                    </h3>
-                    <p className="text-gray-400 text-[14px] lg:text-[16px] mt-1">
-                      Select a sub-category to browse products
-                    </p>
-                  </div>
-                  <Link
-                    to="/products"
-                    className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
-                  >
-                    View all products
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
-                    </svg>
-                  </Link>
-                </div>
-                <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
-                  {activeCat.subcategories.map((sub) => (
-                    <SubcategoryCard
-                      key={sub.id}
-                      sub={sub}
-                      onClick={() => setActiveSubId(sub.id)}
-                    />
-                  ))}
-                </div>
-              </div>
-            ) : (
-              /* ── Product view ── */
-              <div>
-                {/* Subcategory bubble strip + back button */}
-                {hasSubcategories(activeCat) && (
-                  <div className="flex items-center gap-3 mb-8 flex-wrap">
-                    {/* Back to sub-categories */}
-                    <button
-                      onClick={() => setActiveSubId(null)}
-                      className="shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-500 text-[12px] font-semibold transition-all duration-200"
-                    >
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                      </svg>
-                      All
-                    </button>
-
-                    {/* Divider */}
-                    <span className="w-px h-5 bg-gray-200 shrink-0" />
-
-                    {/* Scroll left */}
-                    <button
-                      onClick={() => scrollSubs(-1)}
-                      className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-400 transition-all duration-200"
-                    >
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                      </svg>
-                    </button>
-
-                    <div
-                      ref={subScrollRef}
-                      className="flex gap-2 overflow-x-auto scrollbar-none flex-1"
-                      style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-                    >
-                      {activeCat.subcategories.map((sub) => (
-                        <button
-                          key={sub.id}
-                          onClick={() => setActiveSubId(sub.id)}
-                          className={`shrink-0 px-5 py-2 rounded-full text-[13px] font-semibold tracking-wide transition-all duration-200 ${
-                            activeSubId === sub.id
-                              ? "bg-[#1E88FF] text-white shadow-sm"
-                              : "border border-gray-200 text-gray-600 hover:border-[#1E88FF]/40 hover:text-[#003B8E] bg-white"
-                          }`}
-                        >
-                          {sub.label}
-                        </button>
-                      ))}
+            <div
+              className="pr-2 overflow-y-auto custom-scrollbar"
+              style={{ maxHeight: "80vh" }} 
+            >
+              {showSubcategoryPicker ? (
+                /* ── Subcategory poster cards ── */
+                <div>
+                  <div className="flex items-start justify-between gap-4 mb-6">
+                    <div>
+                      <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[22px] leading-snug">
+                        {activeCat.label}
+                      </h3>
+                      <p className="text-gray-400 text-[14px] lg:text-[16px] mt-1">
+                        Select a sub-category to browse products
+                      </p>
                     </div>
-
-                    {/* Scroll right */}
-                    <button
-                      onClick={() => scrollSubs(1)}
-                      className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-400 transition-all duration-200"
+                    <Link
+                      to="/products"
+                      className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
                     >
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      View all products
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17 8l4 4-4 4M3 12h18"
+                        />
                       </svg>
-                    </button>
+                    </Link>
                   </div>
-                )}
-
-                {/* Active label + count */}
-                <div className="flex items-start justify-between gap-4 mb-6">
-                  <div>
-                    <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[20px] leading-snug">
-                      {activeSub?.label ?? activeCat?.label}
-                    </h3>
-                    <p className="text-gray-400 text-[13px] lg:text-[15px] mt-1 font-medium">
-                      {displayedProducts.length} product{displayedProducts.length !== 1 ? "s" : ""} available
-                    </p>
+                  <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                    {activeCat.subcategories.map((sub) => (
+                      <SubcategoryCard
+                        key={sub.id}
+                        sub={sub}
+                        onClick={() => setActiveSubId(sub.id)}
+                      />
+                    ))}
                   </div>
-                  <Link
-                    to="/products"
-                    className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
-                  >
-                    View all products
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4-4 4M3 12h18" />
-                    </svg>
-                  </Link>
                 </div>
+              ) : (
+                /* ── Product view ── */
+                <div>
+                  {/* Subcategory bubble strip + back button */}
+                  {hasSubcategories(activeCat) && (
+                    <div className="flex items-center gap-3 mb-8 flex-wrap">
+                      {/* Back to sub-categories */}
+                      <button
+                        onClick={() => setActiveSubId(null)}
+                        className="shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-500 text-[12px] font-semibold transition-all duration-200"
+                      >
+                        <svg
+                          className="w-3.5 h-3.5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M15 19l-7-7 7-7"
+                          />
+                        </svg>
+                        All
+                      </button>
 
-                {/* Product grid */}
-                <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
-                  {displayedProducts.length > 0 ? (
-                    displayedProducts.map((product) => (
-                      <ProductCard key={product.id} product={product} />
-                    ))
-                  ) : (
-                    <p className="text-gray-400 text-[15px] lg:text-[17px] col-span-full py-10">
-                      Products coming soon.
-                    </p>
+                      {/* Divider */}
+                      <span className="w-px h-5 bg-gray-200 shrink-0" />
+
+                      {/* Scroll left */}
+                      <button
+                        onClick={() => scrollSubs(-1)}
+                        className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-400 transition-all duration-200"
+                      >
+                        <svg
+                          className="w-3.5 h-3.5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M15 19l-7-7 7-7"
+                          />
+                        </svg>
+                      </button>
+
+                      <div
+                        ref={subScrollRef}
+                        className="flex gap-2 overflow-x-auto scrollbar-none flex-1"
+                        style={{
+                          scrollbarWidth: "none",
+                          msOverflowStyle: "none",
+                        }}
+                      >
+                        {activeCat.subcategories.map((sub) => (
+                          <button
+                            key={sub.id}
+                            onClick={() => setActiveSubId(sub.id)}
+                            className={`shrink-0 px-5 py-2 rounded-full text-[13px] font-semibold tracking-wide transition-all duration-200 ${
+                              activeSubId === sub.id
+                                ? "bg-[#1E88FF] text-white shadow-sm"
+                                : "border border-gray-200 text-gray-600 hover:border-[#1E88FF]/40 hover:text-[#003B8E] bg-white"
+                            }`}
+                          >
+                            {sub.label}
+                          </button>
+                        ))}
+                      </div>
+
+                      {/* Scroll right */}
+                      <button
+                        onClick={() => scrollSubs(1)}
+                        className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 bg-white hover:border-[#1E88FF]/40 hover:text-[#1E88FF] text-gray-400 transition-all duration-200"
+                      >
+                        <svg
+                          className="w-3.5 h-3.5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M9 5l7 7-7 7"
+                          />
+                        </svg>
+                      </button>
+                    </div>
                   )}
-                </div>
-              </div>
-            )}
 
+                  {/* Active label + count */}
+                  <div className="flex items-start justify-between gap-4 mb-6">
+                    <div>
+                      <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[#003B8E] text-[20px] leading-snug">
+                        {activeSub?.label ?? activeCat?.label}
+                      </h3>
+                      <p className="text-gray-400 text-[13px] lg:text-[15px] mt-1 font-medium">
+                        {displayedProducts.length} product
+                        {displayedProducts.length !== 1 ? "s" : ""} available
+                      </p>
+                    </div>
+                    <Link
+                      to="/products"
+                      className="shrink-0 inline-flex items-center gap-2 text-[13px] font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-widest text-[#1E88FF] hover:text-[#3d9fff] transition-colors"
+                    >
+                      View all products
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17 8l4 4-4 4M3 12h18"
+                        />
+                      </svg>
+                    </Link>
+                  </div>
+
+                  {/* Product grid */}
+                  <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                    {displayedProducts.length > 0 ? (
+                      displayedProducts.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                      ))
+                    ) : (
+                      <p className="text-gray-400 text-[15px] lg:text-[17px] col-span-full py-10">
+                        Products coming soon.
+                      </p>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
